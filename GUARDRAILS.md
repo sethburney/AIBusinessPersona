@@ -48,3 +48,4 @@ If the persona ever promotes a product for pay or commission, the post must disc
 - **Current status:** Remi's face is modeled on the owner's wife, who has given consent. Recommended: put that consent in writing (what it covers, which platforms, whether it covers paid brand deals, and what happens if she later wants it withdrawn). Keep that record private, outside this repository.
 - Do not commit photos of real people to this repository. Never use images of children as references or in persona content.
 - Keep a record of how the face was made (tool, date, prompts) in `persona/05-visual-identity.md`.
+- Consent scope is tracked in `persona/07-likeness-consent.md`. Uploading her photos to a new AI tool, building a saved avatar, generating her voice, and paid endorsements each need her confirmation first.
