@@ -2,12 +2,13 @@
 
 A personal AI persona with a face, a story, and a clear mission: teaching business workers how to use AI in their day-to-day jobs through social media posts.
 
-**Status:** Setup. The persona is not defined yet. Every file in `persona/` is a template to fill in together.
+**Status:** Concepts drafted. Review `persona/00-concepts.md` and pick a direction.
 
 ## Project structure
 
 ```
 persona/                  Who the persona is
+  00-concepts.md          Draft persona directions to choose from
   01-profile.md           Name, role, and a quick-reference card
   02-backstory.md         Origin story and why they teach
   03-focus-and-goals.md   Audience, topics, and what success means
