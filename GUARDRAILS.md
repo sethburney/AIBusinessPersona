@@ -44,6 +44,7 @@ If the persona ever promotes a product for pay or commission, the post must disc
 ## 6. Face and likeness
 
 - The persona's face must be generated or created, not based on a real, identifiable person without their written consent.
-- Reference photos of real people may guide **style only** (lighting, hair style, wardrobe, mood). The face must be original.
+- Reference photos of real people may guide **style only** (lighting, hair style, wardrobe, mood), unless that person has consented to their likeness being used.
+- **Current status:** Remi's face is modeled on the owner's wife, who has given consent. Recommended: put that consent in writing (what it covers, which platforms, whether it covers paid brand deals, and what happens if she later wants it withdrawn). Keep that record private, outside this repository.
 - Do not commit photos of real people to this repository. Never use images of children as references or in persona content.
 - Keep a record of how the face was made (tool, date, prompts) in `persona/05-visual-identity.md`.

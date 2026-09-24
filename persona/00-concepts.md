@@ -1,4 +1,6 @@
-# Persona Concepts (Draft for Review)
+# Persona Concepts
+
+> **Decision (2026-09-24):** Concept 3 chosen, renamed to **Remi** (no last name). Kept here for reference.
 
 Three directions to react to. Mix and match is fine: a name from one, a story from another.
 

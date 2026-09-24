@@ -2,8 +2,8 @@
 
 ## The face
 
-- **Style:** _TBD_ (photorealistic, illustrated, stylized 3D, avatar)
-- **Appearance description:** _TBD_
+- **Style:** Photorealistic.
+- **Appearance description:** Modeled closely on the owner's wife, with her consent (see GUARDRAILS.md, section 6). Reference photos are kept outside this repository.
 - **Expression and body language:** _TBD_
 - **Wardrobe and setting:** _TBD_
 - **Consistency plan:** _TBD_ (how to keep the face the same across images and video)

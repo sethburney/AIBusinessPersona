@@ -4,8 +4,8 @@
 
 ## Identity
 
-- **Name:** _TBD_
-- **Handle(s):** _TBD_ (check availability on each platform)
+- **Name:** Remi (no last name)
+- **Handle(s):** Candidate `remitobor` ("Tobor" is "robot" backwards). Availability not yet confirmed; see Platforms below.
 - **Tagline / one-line bio:** _TBD_
 - **AI disclosure line in bio:** _TBD_ (see GUARDRAILS.md)
 - **Operated by:** _TBD_
@@ -27,4 +27,10 @@
 
 | Platform | Role | Handle | Status |
 |---|---|---|---|
-| _TBD_ | Primary / secondary | | Not created |
+| Instagram | TBD | remitobor (candidate) | Availability not confirmed |
+| Facebook | TBD | remitobor (candidate) | Availability not confirmed |
+| TikTok | TBD | | Not checked |
+| YouTube | TBD | | Not checked |
+| X | TBD | | Not checked |
+
+**Backup handle ideas** (also unchecked): `remi.tobor`, `remi_tobor`, `heyremitobor`, `itsremitobor`, `remitobor.ai`
