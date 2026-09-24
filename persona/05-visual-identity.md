@@ -83,6 +83,7 @@ The kit suggests 01 or 10, 08 or 11, 07, 13, and 04 when full length matters. **
 - **Also usable with a light edge crop:** 11.
 - **Usable after cropping the child out completely:** 01 or 10, 08, 13, 16. Crop so no part of the child remains, and check the result before uploading.
 - **Skip:** 02, 03, 05, 06 (child overlaps the face area or duplicates), 09 (too small), 18 (pregnancy and location).
+- **Prepared set (2026-09-24):** Cropped, adult-only copies of 15, 14, 17, 12, and 07 saved locally as `assets/face/references/ref_*.jpg` (git-ignored). Crops remove other people, the business sign, and phone interface elements. Re-saving also stripped photo metadata such as location.
 - **Best long-term fix:** 5–8 new solo photos: front, three-quarter, and side angles; neutral and smiling; natural light; plain background.
 
 ## Brand visuals
