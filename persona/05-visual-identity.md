@@ -98,14 +98,16 @@ Log every generated asset, including drafts, so prompts that work can be reused.
 
 | Date | Tool | Prompt / settings | References used | Output file | Approved by her? |
 |---|---|---|---|---|---|
-| 2026-09-24 | Not recorded | Test prompt 1, profile photo (`content/drafts/2026-09-24-test-image-prompts.md`) | ref_15, 14, 17, 12, 07 | Not stored in repo | Pending |
-| 2026-09-24 | Not recorded | Test prompt 2, Level-Up Monday cover (two hands pointing) | Same | Not stored in repo | Pending; likely replaced by the revision below |
-| 2026-09-24 | Not recorded | Test prompt 2, revised: one pointing hand | Same | Not stored in repo | Pending |
-| 2026-09-24 | Not recorded | Test prompt 3, work mode full length | Same | Not stored in repo | Pending |
+| 2026-09-24 | ChatGPT | Test prompt 1, profile photo (`content/drafts/2026-09-24-test-image-prompts.md`) | ref_15, 14, 17, 12, 07 | `assets/face/approved/remi_profile_blue.jpg` | Yes (per owner) |
+| 2026-09-24 | ChatGPT | Test prompt 2, Level-Up Monday cover (two hands pointing) | Same | `assets/face/approved/remi_monday_cover_two_point.jpg` | Yes (per owner) |
+| 2026-09-24 | ChatGPT | Test prompt 2, revised: one pointing hand | Same | `assets/face/approved/remi_monday_cover_one_point.jpg` | Yes (per owner) |
+| 2026-09-24 | ChatGPT | Test prompt 3, work mode full length | Same | `assets/face/approved/remi_work_mode_full.jpg` | Yes (per owner) |
 
-### Round 1 review notes (2026-09-24, Claude's first read; her judgment is what counts)
+### Round 1 review notes (2026-09-24)
+
+**Decision:** She likes all four; keep the look and prompts as they are. These images are now the visual standard for Remi, and future images should match them. The notes below are kept for reference only.
 
 - **Strong:** long dark brown hair with a center part, broad smile, brow shape, warm expression. Scenes, wardrobe, and framing match the brief. No children, other people, rings, or logos visible. Hands look anatomically normal.
 - **Drifting from the references (the kit's "don't beautify her" rule):** hair highlights are bolder and more caramel than her subtle strands; makeup is heavier (glossy pink lips, dramatic lashes); skin is very smooth; teeth are uniformly bright. Together these push toward a generic "stock photo" look, which can reduce how much it looks like her.
-- **Proposed round 2 prompt additions:** "mostly solid dark brown hair with only faint lighter strands; light natural makeup; natural skin texture with visible pores; natural tooth shade; candid, lightly edited photo look."
+- **Proposed round 2 prompt additions (not adopted):** "mostly solid dark brown hair with only faint lighter strands; light natural makeup; natural skin texture with visible pores; natural tooth shade; candid, lightly edited photo look."
 

@@ -24,12 +24,12 @@ The owner reports that she has confirmed her consent and is not concerned, inclu
 
 | Use | Yes / No / Conditions |
 |---|---|
-| Generated still images | Yes (owner reports consent). _Her confirmation pending._ |
+| Generated still images | Yes. She reviewed and liked the first four test images (per owner, 2026-09-24). |
 | Generated silent video | _Pending_ |
 | Lip-synced video with scripted dialogue | _Pending_ |
 | Generated voice (and whose voice sample) | _Pending_ |
 | Saved character / avatar / trained model built from her images | _Pending_ |
-| Uploading her photos to specific AI tools (list each) | Everygen (image generation connected to this project): yes, per owner, 2026-09-24. Others: _Pending_ |
+| Uploading her photos to specific AI tools (list each) | Everygen: yes, per owner, 2026-09-24. ChatGPT: used for the first test images, 2026-09-24 (owner's choice). Others: _Pending_ |
 | Organic social posts | _Pending_ |
 | Paid ads, sponsored posts, product endorsements | _Pending_ (needed before any brand deal) |
 | Sensitive topics (political, medical, financial) | No. Already excluded by `01-profile.md`. |
@@ -50,7 +50,7 @@ Recommended, not legally reviewed: have her answer the pending items above, then
 
 ## Approval record
 
-- Visual profile reviewed: _Pending_ (date)
+- Visual profile reviewed: 2026-09-24, via the first four test images (per owner)
 - Corrections made: _Pending_
 - Permitted initial uses: _Pending_
 - Tools approved for photo uploads: _Pending_

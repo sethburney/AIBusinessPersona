@@ -2,6 +2,10 @@
 
 > **Source:** Adapted from the likeness kit (revised 2026-09-24). Use only after her review of `05-visual-identity.md`. Upload adult-only reference images whenever the tool supports it; text alone gives a less reliable likeness. Choose complementary views from the recommended set in `05-visual-identity.md` rather than uploading everything; duplicate crops shouldn't get equal weight.
 
+## Style reference
+
+The approved images in `assets/face/approved/` are Remi's visual standard. When a tool accepts extra references, include one or two of them with the cropped photos so new images match the approved look.
+
 ## Master identity prompt
 
 Paste this at the start of every image or video request.
