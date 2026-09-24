@@ -1,18 +1,18 @@
 # Generation Prompts: Remi
 
-> **Source:** Adapted from the likeness kit prepared 2026-09-24. Use only after her review of `05-visual-identity.md`. Upload adult-only reference images whenever the tool supports it; text alone gives a less reliable likeness.
+> **Source:** Adapted from the likeness kit (revised 2026-09-24). Use only after her review of `05-visual-identity.md`. Upload adult-only reference images whenever the tool supports it; text alone gives a less reliable likeness. Choose complementary views from the recommended set in `05-visual-identity.md` rather than uploading everything; duplicate crops shouldn't get equal weight.
 
 ## Master identity prompt
 
 Paste this at the start of every image or video request.
 
-> Create a photorealistic depiction of the same adult woman shown in the supplied reference images. Preserve her individual facial structure and proportions: softly oval face, gently tapered lower face, brown almond-shaped eyes, dark softly arched brows, straight nose with a softly rounded tip, expressive broad smile, natural upper teeth, warm medium-looking complexion consistent with the references, and long dark brown hair with a center to slightly off-center part. Her hair may be softly waved or straighter depending on the scene. Keep natural skin texture and her recognizable features. Use the reference images to resolve details when this description is incomplete. Depict only this adult woman. Any child, other person, or interface element visible in the references is excluded.
+> Create a photorealistic depiction of the same adult woman shown in the supplied reference images. Preserve her individual facial structure and proportions: softly oval face, gently tapered lower face, brown almond-shaped eyes that narrow naturally when she smiles, dark softly arched brows, straight nose with a softly rounded tip, expressive broad smile with natural upper teeth, warm medium-looking complexion consistent with the references, and long dark brown hair with a center to slightly off-center part. Her hair may be softly waved or straighter depending on the scene; any lighter face-framing strands stay subtle. She can also have a gentle closed-mouth smile. Keep natural skin texture and her recognizable features. Use the reference images to resolve details when this description is incomplete. Depict only this adult woman. Any child, bystander, other person, or interface element visible in the references is excluded.
 
 ## Negative instructions
 
 Add this at the end of every request.
 
-> Avoid changing her facial identity, eye color, hairline, brow placement, nose shape, smile, or complexion for aesthetic effect. Avoid excessive smoothing, face reshaping, exaggerated makeup, artificial teeth, uncanny eyes, distorted hands, extra fingers, and altered anatomy. Do not include any child or other person. Do not reproduce the source photo backgrounds, social media interface, watermarks, or text overlays. No brand logos unless the post is an approved, disclosed brand partnership.
+> Avoid changing her facial identity, eye color, hairline, brow placement, nose shape, smile, or complexion for aesthetic effect. Avoid excessive smoothing, face reshaping, exaggerated makeup, artificial teeth, uncanny eyes, distorted hands, extra fingers, and altered anatomy. Do not include any child, bystander, or other person. Do not reproduce the source photo backgrounds, locations, outfits, social media interface, watermarks, or text overlays. No wedding or engagement ring. No branded products or logos unless the post is an approved, disclosed brand partnership.
 
 ## Image scene template
 
@@ -27,6 +27,7 @@ Add this at the end of every request.
 | "Remi's Oops" | Hand over mouth in playful surprise, looking at laptop screen, soft pink floral blouse, bright home office | 4:5 |
 | Win Wall | Both hands raised in celebration, laughing, bright solid-color top, clean white backdrop | 4:5 |
 | YouTube thumbnail | Close-up, animated surprised-happy expression, leaning toward camera, space on one side for large text | 16:9 |
+| Work mode (full length) | Standing, relaxed upright posture, big smile, black blazer over a white tee, dark trousers, white sneakers, holding a laptop, bright modern office hallway | 4:5 or 9:16 |
 | Café working | Candid at a café table with laptop and notebook, mid-laugh, light blazer over a solid top, window light | 4:5 |
 
 ## Video scene template
@@ -36,6 +37,8 @@ Add this at the end of every request.
 ### Example: silent intro clip (Day 1)
 
 > [Video template] 6 seconds, vertical 9:16. She sits at a bright desk, looks up from her laptop into the camera, breaks into a big smile, and gives a small wave. Cornflower-blue top. Chest-up frame, steady camera, soft daylight, realistic hair movement and skin texture. No speech or lip movement suggesting dialogue.
+
+For video, use clear adult face references from more than one angle. A still photo can't show her real mannerisms or voice, so generated gestures are Remi's scripted performance, not documented behavior.
 
 ## Speech and voice
 

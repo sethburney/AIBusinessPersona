@@ -4,6 +4,7 @@ Record each key decision, the options considered, and why we chose what we did. 
 
 | Date | Decision | Options considered | Reasoning | Open risks |
 |---|---|---|---|---|
+| 2026-09-24 | Updated likeness kit to 13 references; Remi wears no wedding/engagement ring and no branded items | Follow kit's upload set as is; exclude images with children | Kit's suggested set includes photos with a child; our rule excludes children. Ring would contradict Remi having no spouse | Most references still contain a child or another person at the edge; crops or new solo photos needed |
 | 2026-09-24 | Added likeness kit (visual profile, generation prompts, consent checklist), adapted to Remi | Commit reference photos to repo; keep them outside | Photos show a real person and a child; git history is hard to erase, so photos stay out and `assets/face/references/` is git-ignored | Current references all include a child; a solo adult-only set is recommended |
 | 2026-09-24 | Profile and backstory v1 drafted; `remitobor` reported available on Instagram and Facebook | n/a | Built from chosen personality, goal, and "AI working with AI using real human experience" story | "Every tip human-checked" is a promise that requires reviewing every post; several [Confirm] items open |
 | 2026-09-24 | Persona chosen: Remi (Concept 3, "The Work Bestie"), no last name; handle candidate `remitobor` | Kaia Bright, Juno Hale, Remi Rhodes | Community-driven concept fits digital products; "Tobor" is "robot" backwards | Handle availability unconfirmed |
