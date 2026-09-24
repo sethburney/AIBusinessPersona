@@ -2,6 +2,14 @@
 
 > **This is a working checklist, not a legal release.** The owner reports that their wife has consented to Remi using her likeness. The specific scope below should be confirmed by her directly. Answers marked "Project decision" come from the owner's direction; she should still confirm them. **Do not record her real name in this repository.**
 
+## Current status (2026-09-24)
+
+**She has concerns. Nothing is uploaded to any AI tool and no images are generated until those concerns are understood and resolved.** Her specific concerns are not yet recorded here.
+
+| Concern | Details | Resolution |
+|---|---|---|
+| _Pending: her own words_ | | |
+
 ## Identity and direction
 
 | Question | Answer |

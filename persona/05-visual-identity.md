@@ -69,14 +69,20 @@ Built on the "Work Bestie" direction and the feel of the reference photos.
 | 11 | `11_white_jacket.png` | Frontal smile, hair volume and waves | Another person's edge at left | |
 | 12 | `12_pearl_headband_closeup.png` | Closed-mouth smile, eyes, brows, hairline | Only part of the face; headband is styling | |
 | 13 | `13_candid_sunglasses.png` | Candid laugh outdoors | **Child's** clothing at left edge | |
+| 14 | Selfie, tan tee, indoors (added 2026-09-24) | Front-facing open smile, eyes, hairline, straight hair | Possible other person's hair at right edge; phone "Crop" button | |
+| 15 | Close-up, sunglasses on head (added 2026-09-24) | Very clear face detail: eyes, brows, nose, smile | Small edge of another person at left; readable business sign (location) | |
+| 16 | Seated on bench, ponytail (added 2026-09-24) | Three-quarter angle, seated posture | **Child** at left edge; ring; phone "Crop" button | |
+| 17 | Restaurant, blue camisole (added 2026-09-24) | Frontal closed-mouth smile, natural light, hands | Bystander in background | |
+| 18 | Sunset overlook (added 2026-09-24) | **Do not use** | Shows pregnancy (personal health information that Remi's canon excludes); wristband and landmark reveal a location | |
 
 ### Recommended upload set
 
 The kit suggests 01 or 10, 08 or 11, 07, 13, and 04 when full length matters. **Our rule is no images of children go to any tool**, which rules out 01, 08, 10, and 13 as they are.
 
-- **Usable now with a light edge crop:** 11 (frontal smile), 12 (close-up), 07 (side angle), 04 (full length, crop out the bystander).
-- **Usable after cropping the child out completely:** 01 or 10 (best close-up detail), 08 (frontal smile), 13 (candid laugh). Crop so no part of the child remains, and check the result before uploading.
-- **Skip:** 02, 03, 05, 06 (child overlaps the face area or duplicates), 09 (too small).
+- **Best starting set (light crop only):** 15 (clearest close-up), 14 (frontal smile), 17 (closed-mouth smile), 12 (close-up), 07 (side angle). Add 04 for full length (crop out the bystander).
+- **Also usable with a light edge crop:** 11.
+- **Usable after cropping the child out completely:** 01 or 10, 08, 13, 16. Crop so no part of the child remains, and check the result before uploading.
+- **Skip:** 02, 03, 05, 06 (child overlaps the face area or duplicates), 09 (too small), 18 (pregnancy and location).
 - **Best long-term fix:** 5–8 new solo photos: front, three-quarter, and side angles; neutral and smiling; natural light; plain background.
 
 ## Brand visuals
