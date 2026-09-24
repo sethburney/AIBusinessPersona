@@ -102,6 +102,7 @@ Log every generated asset, including drafts, so prompts that work can be reused.
 | 2026-09-24 | ChatGPT | Test prompt 2, Level-Up Monday cover (two hands pointing) | Same | `assets/face/approved/remi_monday_cover_two_point.jpg` | Yes (per owner) |
 | 2026-09-24 | ChatGPT | Test prompt 2, revised: one pointing hand | Same | `assets/face/approved/remi_monday_cover_one_point.jpg` | Yes (per owner) |
 | 2026-09-24 | ChatGPT | Test prompt 3, work mode full length | Same | `assets/face/approved/remi_work_mode_full.jpg` | Yes (per owner) |
+| 2026-09-24 | Everygen (Seedance 2.5 video) | Intro reel prompt (`content/drafts/2026-09-24-intro-reel.md`) | First frame: remi_monday_cover_one_point.jpg | In owner's Everygen library | Pending |
 
 ### Round 1 review notes (2026-09-24)
 

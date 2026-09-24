@@ -20,6 +20,12 @@
 - **Signature phrases:** _TBD_
 - **Words to avoid:** _TBD_
 
+## Spoken voice (voiceovers)
+
+- **Approach:** AI stock voice added over silent video on a separate platform. Not lip-synced. Not a clone of any real person's voice (cloning her voice would need her separate OK; see `07-likeness-consent.md`).
+- **Platform and voice name:** _TBD (record once chosen; use the same voice and settings every time)_
+- **Everygen options considered:** Brittany (top pick), Zara, Jessa, Arabella, Shelley.
+
 ## Example posts
 
 _Write 2–3 sample posts here once the voice is chosen, to use as a reference._
