@@ -4,11 +4,7 @@
 
 ## Current status (2026-09-24)
 
-**She has concerns. Nothing is uploaded to any AI tool and no images are generated until those concerns are understood and resolved.** Her specific concerns are not yet recorded here.
-
-| Concern | Details | Resolution |
-|---|---|---|
-| _Pending: her own words_ | | |
+The owner reports that she has confirmed her consent and is not concerned, including uploading reference photos to the Everygen image tool for test images. The earlier pause is lifted. Test images are drafts for her review only; nothing is published without her approval of the specific image.
 
 ## Identity and direction
 
@@ -33,7 +29,7 @@
 | Lip-synced video with scripted dialogue | _Pending_ |
 | Generated voice (and whose voice sample) | _Pending_ |
 | Saved character / avatar / trained model built from her images | _Pending_ |
-| Uploading her photos to specific AI tools (list each) | _Pending_ |
+| Uploading her photos to specific AI tools (list each) | Everygen (image generation connected to this project): yes, per owner, 2026-09-24. Others: _Pending_ |
 | Organic social posts | _Pending_ |
 | Paid ads, sponsored posts, product endorsements | _Pending_ (needed before any brand deal) |
 | Sensitive topics (political, medical, financial) | No. Already excluded by `01-profile.md`. |

@@ -4,6 +4,7 @@ Record each key decision, the options considered, and why we chose what we did. 
 
 | Date | Decision | Options considered | Reasoning | Open risks |
 |---|---|---|---|---|
+| 2026-09-24 | Pause lifted: subject confirmed consent (per owner), including uploads to Everygen for test images | Keep pause; proceed | Owner clarified she said yes and is not concerned | Test images are review drafts only; per-image approval before any posting |
 | 2026-09-24 | Paused all photo uploads and image generation; added 5 new references (14–18), excluded #18 | Proceed with test images; pause | Owner reports their wife has concerns; consent has to be informed and ongoing. #18 shows pregnancy and a location | Direction for the face may change depending on her concerns |
 | 2026-09-24 | Updated likeness kit to 13 references; Remi wears no wedding/engagement ring and no branded items | Follow kit's upload set as is; exclude images with children | Kit's suggested set includes photos with a child; our rule excludes children. Ring would contradict Remi having no spouse | Most references still contain a child or another person at the edge; crops or new solo photos needed |
 | 2026-09-24 | Added likeness kit (visual profile, generation prompts, consent checklist), adapted to Remi | Commit reference photos to repo; keep them outside | Photos show a real person and a child; git history is hard to erase, so photos stay out and `assets/face/references/` is git-ignored | Current references all include a child; a solo adult-only set is recommended |
