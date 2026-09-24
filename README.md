@@ -2,7 +2,7 @@
 
 A personal AI persona with a face, a story, and a clear mission: teaching business workers how to use AI in their day-to-day jobs through social media posts.
 
-**Status:** Concepts drafted. Review `persona/00-concepts.md` and pick a direction.
+**Status:** Persona chosen: **Remi** (`@remitobor`). Profile and backstory drafted (v1); see items marked **[Confirm]**.
 
 ## Project structure
 

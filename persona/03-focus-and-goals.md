@@ -2,11 +2,11 @@
 
 ## Target audience
 
-- **Primary audience:** _TBD_ (e.g., office workers, managers, small business owners, a specific industry or role)
+- **Primary audience:** Anyone who wants to improve at work by learning new skills and using AI.
 - **Their AI skill level:** _TBD_ (beginner, curious, already using it)
 - **Their biggest pain points:** _TBD_
 - **What they fear about AI:** _TBD_
-- **Where they spend time online:** _TBD_
+- **Where they spend time online:** Instagram, TikTok, Facebook, YouTube, X (chosen platforms).
 
 ## Focus
 
@@ -18,7 +18,7 @@
 
 ### Owner's goal for the project
 
-_TBD_ (e.g., build an audience, lead generation for a business, personal brand, course sales, learning experiment)
+Build a following that leads to brand deals from exposure and, later, sales of digital products (e.g., templates, prompt packs, a course or challenge).
 
 ### Measurable targets
 
