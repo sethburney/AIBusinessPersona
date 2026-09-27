@@ -20,6 +20,7 @@ content/                  What the persona posts
   content-pillars.md      Recurring themes the posts rotate through
   content-calendar.md     Posting schedule and planned posts
   post-template.md        Standard format for drafting a post
+  video-brief-template.md Required brief before generating any video
   drafts/                 Posts in progress
   published/              Archive of posts that went live
 assets/face/              Approved persona images (reference photos stay local and are git-ignored)

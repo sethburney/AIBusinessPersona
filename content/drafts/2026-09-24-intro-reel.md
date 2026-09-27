@@ -3,7 +3,7 @@
 - **Platforms:** Instagram Reels, TikTok
 - **Pillar:** Introduction (Day 1)
 - **Format:** 9:16 vertical video, ~10 seconds
-- **Status:** Video generated (silent). Voiceover to be added on another platform. Not yet reviewed or approved.
+- **Status:** Silent clip generated, but it does **not** meet the need: the owner wanted Remi speaking on camera with lip-synced audio. Keep the clip as possible B-roll. Redo as a talking-head video using `content/video-brief-template.md`.
 
 ## Video (generated 2026-09-24)
 

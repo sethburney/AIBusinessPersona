@@ -4,6 +4,7 @@ Record each key decision, the options considered, and why we chose what we did. 
 
 | Date | Decision | Options considered | Reasoning | Open risks |
 |---|---|---|---|---|
+| 2026-09-27 | Every video starts from a filled-in video brief with a confirmed one-line summary and cost | Generate from chat requests | The first intro video was silent B-roll, but a lip-synced talking head was wanted; the type was never confirmed explicitly | Talking-head videos need her OK for lip-synced video and a generated voice |
 | 2026-09-24 | First four Remi images (made in ChatGPT) approved as-is; they set Remi's visual standard | Keep as-is; revise toward subtler hair, makeup, skin | She likes them; owner chose to keep them unchanged | Bolder highlights and polished retouching differ somewhat from her real look; future images must match these to stay consistent |
 | 2026-09-24 | Pause lifted: subject confirmed consent (per owner), including uploads to Everygen for test images | Keep pause; proceed | Owner clarified she said yes and is not concerned | Test images are review drafts only; per-image approval before any posting |
 | 2026-09-24 | Paused all photo uploads and image generation; added 5 new references (14–18), excluded #18 | Proceed with test images; pause | Owner reports their wife has concerns; consent has to be informed and ongoing. #18 shows pregnancy and a location | Direction for the face may change depending on her concerns |
