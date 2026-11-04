@@ -2,7 +2,9 @@
 
 ## Target audience
 
-- **Primary audience:** Anyone who wants to improve at work by learning new skills and using AI.
+- **Primary audience:** Business owners and leaders of small to mid-size teams who run sales and marketing (updated 2026-11-04).
+- **Secondary audience:** Sales ops, marketing ops, and marketing managers who do the hands-on setup.
+- **Original broader audience:** Anyone who wants to improve at work with AI. Still welcome; content stays plain-language.
 - **Their AI skill level:** _TBD_ (beginner, curious, already using it)
 - **Their biggest pain points:** _TBD_
 - **What they fear about AI:** _TBD_
@@ -11,7 +13,7 @@
 ## Focus
 
 - **Core topic:** Helping business workers use AI in their jobs.
-- **Narrower angle:** _TBD_ (e.g., specific tools, specific tasks like email/reports/meetings, a specific industry)
+- **Narrower angle:** Building efficient, measurable, repeatable sales and marketing systems with AI, taught through real implementations by "my human's" team. Framework: Build It, Prove It, Hand It Off (`content/messaging-framework.md`).
 - **What the persona will NOT cover:** _TBD_ (keeps the account focused)
 
 ## Goals
