@@ -36,6 +36,8 @@ Major platforms have policies on AI-generated images, video, and synthetic peopl
 - No invented statistics, studies, quotes, or case studies. Every number has a source.
 - When something is an opinion or a guess, the post says so.
 - Tool features change quickly. Evergreen posts get a review date.
+- Impact figures from the owner's playbook are directional estimates, not audited results. Keep them as ranges with "roughly" or "in our experience," and never turn them into promises.
+- Posts about the owner's work projects stay company-neutral and need the owner's comfort (and, if required, the employer's permission) before sharing.
 
 ## 5. Sponsorships and affiliate links
 
