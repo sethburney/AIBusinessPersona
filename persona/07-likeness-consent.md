@@ -6,6 +6,8 @@
 
 The owner reports that she has confirmed her consent and is not concerned, including uploading reference photos to the Everygen image tool for test images. The earlier pause is lifted. Test images are drafts for her review only; nothing is published without her approval of the specific image.
 
+**Update (2026-11-16):** The owner reports she approved the use of her NIL (name, image and likeness) for this project. Recorded below for likeness-based uses. Her real name is still not used by Remi and is not recorded in this repository.
+
 ## Identity and direction
 
 | Question | Answer |
@@ -25,11 +27,11 @@ The owner reports that she has confirmed her consent and is not concerned, inclu
 | Use | Yes / No / Conditions |
 |---|---|
 | Generated still images | Yes. She reviewed and liked the first four test images (per owner, 2026-09-24). |
-| Generated silent video | _Pending_ |
-| Lip-synced video with scripted dialogue | _Pending_ |
-| Generated voice (and whose voice sample) | _Pending_ |
-| Saved character / avatar / trained model built from her images | _Pending_ |
-| Uploading her photos to specific AI tools (list each) | Everygen: yes, per owner, 2026-09-24. ChatGPT: used for the first test images, 2026-09-24 (owner's choice). **Higgsfield: planned for all talking videos; _her OK pending_.** Others: _Pending_ |
+| Generated silent video | Yes (NIL approval, per owner, 2026-11-16) |
+| Lip-synced video with scripted dialogue | Yes (NIL approval, per owner, 2026-11-16). Scripts never present Remi's words as her own views or experiences. |
+| Generated voice (and whose voice sample) | Stock AI voice: yes. Cloning her real voice: _Pending_ (not covered by likeness approval; ask separately). |
+| Saved character / avatar / trained model built from her images | _Pending_ (e.g., Higgsfield Soul ID: her photos stored and used to train a reusable model; confirm separately) |
+| Uploading her photos to specific AI tools (list each) | Everygen: yes, per owner, 2026-09-24. ChatGPT: used for the first test images, 2026-09-24 (owner's choice). **Higgsfield: yes, for this project (NIL approval, per owner, 2026-11-16).** Others: _Pending_ |
 | Organic social posts | _Pending_ |
 | Paid ads, sponsored posts, product endorsements | _Pending_ (needed before any brand deal) |
 | Sensitive topics (political, medical, financial) | No. Already excluded by `01-profile.md`. |

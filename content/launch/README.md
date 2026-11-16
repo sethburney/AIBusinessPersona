@@ -22,7 +22,7 @@ Three weeks of Remi content, pre-built and ready for production. Each week has t
 | 6. Post | Paste the caption, turn on the platform's AI-generated label, post | Owner |
 | 7. Log | Add the post to the tracker in `content/content-calendar.md` | Owner or Claude |
 
-**Higgsfield notes (from public sources, 2026-11; verify in the app):** Higgsfield's talking-avatar tools turn a photo plus a script or audio into a lip-synced video, with built-in voice generation. Front-facing, unobstructed portraits and clean audio reportedly give the best lip-sync, which is why most videos use the front-facing profile image. The exact field names in Higgsfield's form may differ from the prompt blocks here; paste each section into the matching field. Its "Soul ID" feature can train a reusable character from many photos; **do not use it without her separate OK** (saved avatar is still pending in `persona/07-likeness-consent.md`).
+**Higgsfield notes (from public sources, 2026-11; verify in the app):** Higgsfield's talking-avatar tools turn a photo plus a script or audio into a lip-synced video, with built-in voice generation. Front-facing, unobstructed portraits and clean audio reportedly give the best lip-sync, which is why most videos use the front-facing profile image. The exact field names in Higgsfield's form may differ from the prompt blocks here; paste each section into the matching field. Its "Soul ID" feature can train a reusable character from many photos; **confirm with her before using it** (a saved, trained avatar is still listed separately in `persona/07-likeness-consent.md`).
 
 **Pick Remi's voice once.** Choose one Higgsfield voice that matches the voice direction in the prompts, record its name in `persona/04-voice-and-style.md`, and use it for every video.
 
@@ -64,10 +64,10 @@ See every slide mocked up on the **Remi Launch Board** (private artifact): https
 
 ## Before any of this is published
 
-- [ ] Wife confirms **lip-synced talking video with an AI voice** (pending in `persona/07-likeness-consent.md`)
-- [ ] Wife confirms **uploading her approved images to Higgsfield** (pending; only Everygen and ChatGPT are recorded)
+- [x] Wife approved use of her likeness, including talking video and Higgsfield uploads (per owner, 2026-11-16)
+- [ ] Still separate: paid brand deals, a saved/trained avatar (Soul ID), cloning her real voice
 - [ ] Remi's Higgsfield voice chosen and recorded
-- [ ] GitHub repository made private (it currently exposes the owner's name and the playbook; see `GUARDRAILS.md`, section 7)
+- [ ] Owner's call: GitHub repository private or public (public exposes the owner's username, commit email, and playbook; see `GUARDRAILS.md`, section 7)
 - [ ] Owner comfortable sharing each lesson (employer)
 
 ## Editing these posts
