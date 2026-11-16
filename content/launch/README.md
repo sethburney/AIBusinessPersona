@@ -60,7 +60,7 @@ The emotional core of the channel. Every piece should leave the viewer more conf
 - **Remi photo:** cover slide only, from `assets/face/approved/`
 - **Last slide:** always the "You're not behind" closer and @remitobor
 
-See the visual preview board for every slide mocked up.
+See every slide mocked up on the **Remi Launch Board** (private artifact): https://claude.ai/artifact/GTtvHwMf7WFfg1sbvZKo16
 
 ## Before any of this is published
 
@@ -72,4 +72,4 @@ See the visual preview board for every slide mocked up.
 
 ## Editing these posts
 
-Every week file is generated from one source (`_source/launch_content.py`), which also builds the preview board. To change a script, edit the source and re-run `python3 -I _source/make_markdown.py .` from this folder, so the files and the board stay in sync.
+Every week file is generated from one source (`_source/launch_content.py`), which also builds the preview board (`_source/make_board.py`). To change a script, edit the source and re-run `python3 -I _source/make_markdown.py .` from this folder, so the files and the board stay in sync.
