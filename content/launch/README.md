@@ -42,14 +42,14 @@ The ideas, what was built, and what was learned can be shared. Anything that cou
 
 Every week file was written to this rule. Specific playbook figures were softened (for example, a stated 50–75% became "roughly half or more"), and identifying details such as team size and touch counts were removed.
 
-## Standing rule 2: "You're not behind. You're right here."
+## Standing rule 2: "You're not behind. You're in a great place to start."
 
 The emotional core of the channel. Every piece should leave the viewer more confident than before.
 
 - **Open with recognition, not fear.** Name the frustration ("every month-end, somebody finds a deal entered wrong") rather than warning people they're falling behind.
 - **Normalize mistakes.** Flops and Oops stories show that everyone gets it wrong; the point is the rule that came out of it.
 - **Always end with one small next step** the viewer can take this week.
-- **Bridge videos** between weeks (and later, between campaigns) recap the wins and repeat the message: "You're not behind. You're right here."
+- **Bridge videos** between weeks (and later, between campaigns) recap the wins and repeat the message: "You're not behind. You're in a great place to start."
 - **Banned:** fear-of-missing-out framing ("AI will replace you if..."), shaming, hype, and "everyone else is already doing this."
 
 ## Brand style for carousels and covers

@@ -31,7 +31,9 @@ Use it as a recurring hook ("Most people stay at stage 1. Which stage are you?")
 
 **The playbook's central message, which Remi carries:** AI pays off most when you turn a repeated frustration into a repeatable system, and a human still approves what matters.
 
-### The emotional core: "You're not behind. You're right here."
+### The emotional core: "You're not behind. You're in a great place to start."
+
+Always pair it with a concrete action ("Start with one step this week," "Try this today"), so the reassurance turns into momentum.
 
 This is why the channel exists: to give people ideas, confidence and real strategies they can implement, without making them feel late.
 

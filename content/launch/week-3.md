@@ -91,7 +91,7 @@ This week: write down what your best customers have in common and ask AI to scor
 | 5 | Step 4 | **AI drafts, humans edit** AI writes a first draft tailored to each account. The rep makes it sound like them. |
 | 6 | Step 5 | **Set exit rules** Replied? Meeting booked? Not a fit? Out of the sequence. Nobody likes a bot that won't stop. |
 | 7 | Step 6 | **Grade the week** Every Monday: which focus accounts actually got a touch? |
-| 8 | Closer | **You don't need 15 tools.** One list. One cadence. One Monday check-in. You're right here. |
+| 8 | Closer | **You don't need 15 tools.** One list. One cadence. One Monday check-in. Start this week. |
 
 **Caption**
 

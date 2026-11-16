@@ -265,7 +265,7 @@ footer {{ color: var(--muted); font-size: 13px; border-top: 1px solid var(--line
     <div>
       <span class="eyebrow">@remitobor · Launch block · Weeks 1–3</span>
       <h1>Remi Launch Board</h1>
-      <p class="tag"><strong>You're not behind. You're right here.</strong> Three weeks of posts built on <strong>Build It, Prove It, Hand It Off</strong>, ready to go to Higgsfield.</p>
+      <p class="tag"><strong>You're not behind. You're in a great place to start.</strong> Three weeks of posts built on <strong>Build It, Prove It, Hand It Off</strong>, ready to go to Higgsfield.</p>
       <div class="stats"><span>{len(WEEKS)} weeks</span><span>{n_videos} talking-head videos</span><span>{n_car} carousels</span><span>Mon · Wed · Fri + Sun bridge</span></div>
     </div>
   </header>
@@ -280,9 +280,9 @@ footer {{ color: var(--muted); font-size: 13px; border-top: 1px solid var(--line
   </div>
 
   <div class="rules">
-    <div class="rule-card core"><h2>You're not behind. You're right here.</h2><p>Open with a real frustration, show what worked and what flopped, end with one small next step. No fear, no hype, no shaming.</p></div>
+    <div class="rule-card core"><h2>You're not behind. You're in a great place to start.</h2><p>Open with a real frustration, show what worked and what flopped, end with one small next step. No fear, no hype, no shaming.</p></div>
     <div class="rule-card"><h2>Keep it anonymous</h2><ul><li>"My human's team," never the company, industry or market</li><li>No job title, team size, dates or exact figures</li><li>Blur distinctive incidents; keep the lesson</li><li>Mock data only, never real screens</li></ul></div>
-    <div class="rule-card"><h2>Before anything posts</h2><ul class="todo"><li>Wife OKs talking video, AI voice and Higgsfield uploads</li><li>Pick and record Remi's Higgsfield voice</li><li>Make the GitHub repository private</li><li>AI label on, every post</li></ul></div>
+    <div class="rule-card"><h2>Before anything posts</h2><ul class="todo"><li>✓ Likeness approved, incl. talking video and Higgsfield</li><li>Pick and record Remi's Higgsfield voice</li><li>Decide: GitHub repository private or public</li><li>AI label on, every post</li></ul></div>
   </div>
 
   <nav class="weeknav" aria-label="Weeks">{nav}</nav>

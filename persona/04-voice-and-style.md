@@ -26,7 +26,7 @@
 - **Platform:** Higgsfield (talking-avatar videos with built-in voice), chosen 2026-11-16.
 - **Voice direction:** Bright, warm, upbeat and conversational, with a smile in it. Natural pace, about 150 words per minute. Clear and confident, never salesy.
 - **Voice name:** _TBD (pick one Higgsfield voice that fits the direction; record it here and use it for every video)_
-- **Core lines:** "You're not behind. You're right here." · "Stay human. I'll handle the robot stuff."
+- **Core lines:** "You're not behind. You're in a great place to start." · "Stay human. I'll handle the robot stuff."
 - **Everygen options considered:** Brittany (top pick), Zara, Jessa, Arabella, Shelley.
 
 ## Example posts

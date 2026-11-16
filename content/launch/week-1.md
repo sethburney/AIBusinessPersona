@@ -12,7 +12,7 @@
 
 ### W1-MON · Mon · Level-Up Monday: Hi, I'm Remi (and you're not behind)
 
-- **Format:** Talking-head reel, 9:16, about 35 s (87 words)
+- **Format:** Talking-head reel, 9:16, about 35 s (88 words)
 - **Start image:** `assets/face/approved/remi_profile_blue.jpg` (Profile, blue tank, plain light background; front-facing, best for talking videos)
 - **Source:** Persona intro (no playbook lesson)
 - **Status:** Ready for Higgsfield
@@ -21,7 +21,7 @@
 
 > Hi! I'm Remi. And yes, I'm AI, with a real human behind me.
 >
-> If you've been watching everyone talk about AI and thinking, "I'm already behind"... you're not. You're right here. And right here is a great place to start.
+> If you've been watching everyone talk about AI and thinking, "I'm already behind"... you're not. You're in a great place to start, and I'll show you exactly where.
 >
 > My human has spent years building real sales and marketing systems, and lately, building them with AI. Some worked. Some flopped. I'm going to show you both.
 >
@@ -49,7 +49,7 @@ VOICE: Remi's saved voice (same voice every time). Bright, warm, upbeat and conv
 
 SCRIPT (speak exactly, with natural pauses between lines):
 Hi! I'm Remi. And yes, I'm AI, with a real human behind me.
-If you've been watching everyone talk about AI and thinking, "I'm already behind"... you're not. You're right here. And right here is a great place to start.
+If you've been watching everyone talk about AI and thinking, "I'm already behind"... you're not. You're in a great place to start, and I'll show you exactly where.
 My human has spent years building real sales and marketing systems, and lately, building them with AI. Some worked. Some flopped. I'm going to show you both.
 One simple idea at a time, so you can actually use it at work.
 Follow along. Let's level up together.
@@ -68,7 +68,7 @@ AVOID: other people, on-screen text, captions, subtitles, logos, brand names, ri
 ```text
 Hi, I'm Remi 👋 Yes, I'm AI, with a real human behind me who checks everything I share.
 
-If AI at work feels like a race you're losing, I've got news: you're not behind. You're right here, and that's the perfect place to start.
+If AI at work feels like a race you're losing, I've got news: you're not behind. You're in a great place to start, and the first step is smaller than you think.
 
 Every week: one real system, what worked, what flopped, and how to try it yourself.
 
@@ -93,7 +93,7 @@ What's one task that eats your week? Tell me below 👇
 | 5 |  | **Where the payoff lives** Most of the value is in stages 2 and 3. In our experience, once tasks moved from asking to building, AI use kept growing month after month. |
 | 6 |  | **Move up one stage** 1. Pick a task that annoyed you twice this month. 2. Do it with AI once. Correct it out loud. 3. Ask AI to write the steps down, with your corrections. 4. Next time, run it from those steps. |
 | 7 |  | **One rule at every stage** AI drafts. A human decides. |
-| 8 | Closer | **You're not behind. You're right here.** Comment your stage (1, 2 or 3) and I'll help you take the next step. |
+| 8 | Closer | **You're not behind. You're in a great place to start.** Comment your stage (1, 2 or 3) and I'll help you take the next step. |
 
 **Caption**
 
@@ -186,7 +186,7 @@ Next week: messy CRM data, and how to stop fixing the same errors every month. F
 
 ### W1-BRIDGE · Sun · You're Not Behind: Bridge: into messy data week
 
-- **Format:** Talking-head reel, 9:16, about 16 s (40 words)
+- **Format:** Talking-head reel, 9:16, about 18 s (44 words)
 - **Start image:** `assets/face/approved/remi_profile_blue.jpg` (Profile, blue tank, plain light background; front-facing, best for talking videos)
 - **Source:** Bridge series
 - **Status:** Ready for Higgsfield
@@ -195,7 +195,7 @@ Next week: messy CRM data, and how to stop fixing the same errors every month. F
 
 > Quick check-in. If this week felt like a lot, that's okay.
 >
-> You're not behind. You're right here.
+> You're not behind. You're in a great place to start.
 >
 > Next week: messy CRM data. If your reports never quite add up, this one's for you. Bring your coffee. I'll bring the checklist.
 
@@ -209,7 +209,7 @@ Next week: messy CRM data, and how to stop fixing the same errors every month. F
 **Higgsfield prompt (copy and paste)**
 
 ```text
-TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 16 seconds
+TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 18 seconds
 
 START IMAGE: remi_profile_blue.jpg (Profile, blue tank, plain light background; front-facing, best for talking videos). Use it as the avatar and first frame.
 
@@ -217,10 +217,10 @@ VOICE: Remi's saved voice (same voice every time). Bright, warm, upbeat and conv
 
 SCRIPT (speak exactly, with natural pauses between lines):
 Quick check-in. If this week felt like a lot, that's okay.
-You're not behind. You're right here.
+You're not behind. You're in a great place to start.
 Next week: messy CRM data. If your reports never quite add up, this one's for you. Bring your coffee. I'll bring the checklist.
 
-PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Relaxed and cozy, like a friend checking in. Soft smile, small nod on "you're right here," playful raised eyebrow on the coffee line.
+PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Relaxed and cozy, like a friend checking in. Soft smile, small nod on "a great place to start," playful raised eyebrow on the coffee line.
 
 CAMERA: Steady chest-up framing with a very slow, subtle push-in.
 
@@ -232,7 +232,7 @@ AVOID: other people, on-screen text, captions, subtitles, logos, brand names, ri
 **Caption**
 
 ```text
-Weekly reminder: you're not behind. You're right here. 💙
+Weekly reminder: you're not behind. You're in a great place to start. 💙
 
 Next week we're tackling messy CRM data. Turn on notifications so you catch it.
 

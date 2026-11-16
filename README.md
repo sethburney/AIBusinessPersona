@@ -27,6 +27,7 @@ content/                  What the persona posts
   published/              Archive of posts that went live
 assets/face/              Approved persona images (reference photos stay local and are git-ignored)
 research/                 Audience research, competitor notes, sources
+collab/                   Claude + Codex briefs; owner picks the best of both
 GUARDRAILS.md             Transparency, accuracy, and platform rules
 DECISIONS.md              Log of key decisions and the reasons for them
 ```
