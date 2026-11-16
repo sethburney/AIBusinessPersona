@@ -51,3 +51,17 @@ If the persona ever promotes a product for pay or commission, the post must disc
 - Do not commit photos of real people to this repository. Never use images of children as references or in persona content.
 - Keep a record of how the face was made (tool, date, prompts) in `persona/05-visual-identity.md`.
 - Consent scope is tracked in `persona/07-likeness-consent.md`. Uploading her photos to a new AI tool, building a saved avatar, generating her voice, and paid endorsements each need her confirmation first.
+
+## 7. Protecting the owner's identity and employer
+
+The owner's ideas, what was built, and what was learned can be shared. Anything that could identify the company, the owner, or the owner's employer cannot.
+
+- **Never include:** company name, industry, business model, market, products, customers, locations; the owner's job title, team size, or org structure; exact counts and precise figures; project dates or timelines; distinctive incidents in identifying detail; real dashboards, CRM screens, documents, or data; the full tool stack in combination.
+- **Instead:** "my human's team," tool categories, soft language or broad ranges, the lesson and the rule with details blurred, and clearly fake mock data.
+- **When in doubt, generalize one more level.** The full do/don't table is in `content/launch/README.md`.
+
+**Identity risks outside the content (owner's decision):**
+
+- **This GitHub repository is public.** It shows the owner's GitHub username, the commit email address, the owner's playbook, and the likeness files. Anyone who connects Remi to this repository could identify the owner and, from the playbook, possibly the employer. **Recommended: make the repository private** (Settings → General → Danger Zone → Change visibility). Git history keeps old files even after they're deleted, so making it private is the real fix.
+- **Remi's face is the owner's wife.** People who know her may recognize her, and through her, the owner. This can't be fully removed while the likeness is used; it's worth weighing against the anonymity goal.
+- **Account details:** register Remi's accounts with a business email and name rather than personal ones where the platforms allow it.

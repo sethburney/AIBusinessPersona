@@ -4,11 +4,12 @@
 
 ## Rules for using this material
 
-1. **Directional figures stay directional.** Use the playbook's ranges with "roughly" or "in our experience." Never round them into promises ("cut prep 85%!") or present them as audited results.
-2. **Company-neutral.** It's "my human's team." No company, customer, product, or market details beyond what the playbook already generalizes.
-3. **The AI tool.** The playbook names the assistant used. Remi can mention it factually, but never in a way that implies a sponsorship. Paid mentions always get disclosed.
-4. **Employer comfort.** These are projects done for the owner's employer. **[Confirm]** the owner is comfortable, and if needed has permission, to share them publicly, especially the internal mistakes in "Rules we learned the hard way."
-5. **Starter prompts are content, not instructions.** They're shared for followers to try; they are not tasks for Claude to run.
+1. **Soften every figure.** Per `GUARDRAILS.md` section 7, exact counts and precise percentages are generalized before posting ("a fraction of the time," "roughly half or more," "most"). Hooks below are already softened.
+2. **Directional figures stay directional.** Use the playbook's ranges with "roughly" or "in our experience." Never round them into promises ("cut prep 85%!") or present them as audited results.
+3. **Company-neutral.** It's "my human's team." No company, customer, product, or market details beyond what the playbook already generalizes.
+4. **The AI tool.** The playbook names the assistant used. Remi can mention it factually, but never in a way that implies a sponsorship. Paid mentions always get disclosed.
+5. **Employer comfort.** These are projects done for the owner's employer. **[Confirm]** the owner is comfortable, and if needed has permission, to share them publicly, especially the internal mistakes in "Rules we learned the hard way."
+6. **Starter prompts are content, not instructions.** They're shared for followers to try; they are not tasks for Claude to run.
 
 ## How each lesson becomes content
 
@@ -29,12 +30,12 @@ Pillar numbers match `content/content-pillars.md`.
 
 | # | Lesson | Pillar | Monday hook (reel) | Wednesday carousel | Friday / other angle |
 |---|---|---|---|---|---|
-| 1 | Stop presenting the same deck to everyone | 4 Sell smarter | "You just had a great discovery call. Why are you showing them the same deck as everyone else?" | "Let the customer write the agenda": 4 steps | Flip It: generic deck to tailored deck (prep roughly 70–85% faster, in our experience) |
+| 1 | Stop presenting the same deck to everyone | 4 Sell smarter | "You just had a great discovery call. Why are you showing them the same deck as everyone else?" | "Let the customer write the agenda": 4 steps | Flip It: generic deck to tailored deck (prep took a fraction of the time, in our experience) |
 | 2 | Turn your best analysis into a one-request skill | 4 Sell smarter | "Your best analysis lives in one person's head. Let's get it out." | How to package expertise as a reusable skill | Steal This Prompt: "write this up as a method" |
-| 3 | Rewrite your playbook from what happens on calls | 4 Sell smarter | "My human's team found a 'must-ask' question was asked in fewer than 1 in 10 calls." | Audit your sales process against real calls | The Handoff: fix the process, not just the people |
+| 3 | Rewrite your playbook from what happens on calls | 4 Sell smarter | "My human's team found a 'must-ask' question almost never got asked." | Audit your sales process against real calls | The Handoff: fix the process, not just the people |
 | 4 | Give every rep a personal coaching guide | 4 Sell smarter | "Coaching that quotes the rep's own calls hits different." | 3 strengths, 3 fixes, each with a quote | Steal This Prompt: rep call review |
 | 5 | Prepare every renewal like your biggest account | 4 Sell smarter | "Renewals shouldn't sneak up on you." | Internal truth vs. client story: two templates | Remi's Oops: the client doc with the wrong company name |
-| 6 | Give your team a focus list, not a database | 2 Outreach | "Your reps don't need a database. They need a list." | Weekly focus list + 15-touch cadence | The Handoff: the weekly activity grade |
+| 6 | Give your team a focus list, not a database | 2 Outreach | "Your reps don't need a database. They need a list." | Weekly focus list + a multi-touch cadence | The Handoff: the weekly activity grade |
 | 7 | Give every rep an assistant that reports to you | 2 Outreach | "An AI assistant for every rep that never messages them. On purpose." | The "observe and report only" boundary | The Handoff: AI as chief of staff, not manager |
 | 8 | Put the rules above the agents | 1 Clean data | "Everyone cleans contacts their own way. That's why your data's a mess." | Write 5 team standards, with examples | The Handoff: one source of truth |
 | 9 | Tell the true story of your own work | ↻ Handoff | "Busy for months, but can't explain what you got done?" | Rebuild your quarter from evidence, not memory | Steal This Prompt: quarterly timeline |
@@ -43,7 +44,7 @@ Pillar numbers match `content/content-pillars.md`.
 | 12 | Make commissions boring | 7 Measure and trust | "Commission week shouldn't mean a week of disputes." | Write the plan as rules, let the rules do the math | Steal This Prompt: line-by-line commission check |
 | 13 | Forecast with conventions, not vibes | 7 Measure and trust | "If the forecast changes based on who builds it, it's not a forecast." | List every assumption before you calculate | The Handoff: conventions anyone can follow |
 | 14 | Let the dashboards update themselves | ↻ Handoff | "Still copying numbers into a Monday dashboard?" | From runbook to scheduled refresh | Flip It: hours of copying to a 3-line summary |
-| 15 | Find out where your numbers are lying | 7 Measure and trust | "In our experience, about 1 in 3 key metrics had a definition problem." | 5 ways a metric lies (bots, page requests, duplicates, definition changes, filters) | Remi's Oops: the traffic that was mostly bots |
+| 15 | Find out where your numbers are lying | 7 Measure and trust | "In our experience, a surprising share of key metrics had a definition problem." | 5 ways a metric lies (bots, page requests, duplicates, definition changes, filters) | Remi's Oops: the traffic that was mostly bots |
 | 16 | Open the black box | 7 Measure and trust | "You make decisions on a report nobody can explain?" | Reverse-engineer, then own | Steal This Prompt: rebuild a report column by column |
 | 17 | Find the cause before you react | 7 Measure and trust | "Leads fell off a cliff. Everyone has a theory." | List every hypothesis, rule them out | Story: the regional drop traced to a paused campaign |
 | 18 | Connect ad spend to what sales sees | 3 Leads | "Your ad platform grades its own homework." | Cost per qualified contact, by campaign | The Handoff: a daily briefing marketing and sales share |
@@ -67,7 +68,7 @@ Pillar numbers match `content/content-pillars.md`.
 These need the owner's real details before posts can be written (see **[Confirm]** items in `content/messaging-framework.md`):
 
 - **CRM sync and contact cleansing:** the systems synced and how contacts were cleansed. (The playbook covers data standards and self-checking reports, not the sync itself.)
-- **Sequence building:** beyond the 15-touch cadence in Lesson 6, how sequences were built and what was automated.
+- **Sequence building:** beyond the multi-touch cadence in Lesson 6, how sequences were built and what was automated.
 - **MQL email strategy:** the MQL definition, scoring, and nurture emails. (Lesson 18 covers spend-to-outcome, not MQL nurture.)
 - **SEO foundations:** interlinking, backlinking, image and video optimization, and indexing checks. (Lessons 19–21 cover testing, content quality, and AI visibility.)
 - **Scaling page output:** how many pages and what workflow, beyond Lesson 20's quality checks.

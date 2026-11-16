@@ -21,6 +21,8 @@ content/                  What the persona posts
   content-calendar.md     Posting schedule and planned posts
   post-template.md        Standard format for drafting a post
   video-brief-template.md Required brief before generating any video
+  messaging-framework.md  Core messages, topics, and tone
+  launch/                 Weeks 1–3, pre-built: scripts, Higgsfield prompts, carousels
   drafts/                 Posts in progress
   published/              Archive of posts that went live
 assets/face/              Approved persona images (reference photos stay local and are git-ignored)

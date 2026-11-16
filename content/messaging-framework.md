@@ -31,6 +31,16 @@ Use it as a recurring hook ("Most people stay at stage 1. Which stage are you?")
 
 **The playbook's central message, which Remi carries:** AI pays off most when you turn a repeated frustration into a repeatable system, and a human still approves what matters.
 
+### The emotional core: "You're not behind. You're right here."
+
+This is why the channel exists: to give people ideas, confidence and real strategies they can implement, without making them feel late.
+
+- Open with recognition of a real frustration, never fear or FOMO.
+- Show what worked **and** what didn't; mistakes are normal and become rules.
+- End every piece with one small next step for this week.
+- **Bridge videos** (series: *You're Not Behind*) sit between each week, segment and campaign: a quick recap of the wins, the reassurance line, and a tease of what's next.
+- Banned: "AI will replace you," shaming, hype, and "everyone else is already doing this."
+
 ## 2. Who this is for
 
 This narrows the audience from "anyone at work" to people who own outcomes:
@@ -79,7 +89,7 @@ Each topic lists the playbook lessons that supply real stories. Lesson numbers r
   - "How I use AI to draft sequence emails (and what my human always rewrites)" (reel)
   - "When NOT to automate" (talking head; builds trust)
   - "The sequence handoff doc: owner, triggers, exit rules, review dates" (carousel)
-- **From the playbook:** Lesson 6 (weekly focus list and a 15-touch cadence across calls, email, text, and social), Lesson 7 (a per-rep assistant that observes and reports only).
+- **From the playbook:** Lesson 6 (weekly focus list and a multi-touch cadence across calls, email, text, and social), Lesson 7 (a per-rep assistant that observes and reports only).
 - **Digital product tie-in:** Sequence templates and a prompt pack for outreach drafts.
 - **[Confirm]:** Platform used; number and type of steps; channels (email, calls, social); reply or meeting rates before/after if shareable; any deliverability lessons.
 
@@ -173,7 +183,7 @@ Every topic ends with the same three leader questions, which can also become the
 
 ## 7. Message guardrails for these topics
 
-- **Keep the organization anonymous.** It's "my human's team." No company name, clients, coworkers, or internal screenshots that identify them.
+- **Keep the organization anonymous.** It's "my human's team." No company name, industry, market, clients, coworkers, job title, team size, dates, or internal screenshots. Generalize figures and blur distinctive details. Full rules: `GUARDRAILS.md`, section 7.
 - **Get permission for real numbers.** Share results only if the owner is comfortable they're not confidential to the organization or its clients. **[Confirm]** with the owner and, if needed, the organization.
 - **Tools by category first.** Name specific tools only when it's useful and accurate; never imply a sponsorship that doesn't exist. Paid mentions always get disclosed.
 - **Directional figures stay directional.** Playbook impact ranges are estimates from experience, not audited results. Always say "roughly" or "in our experience," and never turn a range into a promise.

@@ -46,7 +46,7 @@ Exact words, in Remi's voice. About 2.5–3 words per second of speech.
 
 ## 7. Generation settings
 
-- **Tool:** (Everygen / other)
+- **Tool:** (Higgsfield for talking heads / Everygen / other)
 - **Method:** audio first (voiceover goes into the video model) / video only / lip-sync afterward
 - **Model:**
 - **Resolution:**

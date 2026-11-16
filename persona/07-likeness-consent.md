@@ -29,7 +29,7 @@ The owner reports that she has confirmed her consent and is not concerned, inclu
 | Lip-synced video with scripted dialogue | _Pending_ |
 | Generated voice (and whose voice sample) | _Pending_ |
 | Saved character / avatar / trained model built from her images | _Pending_ |
-| Uploading her photos to specific AI tools (list each) | Everygen: yes, per owner, 2026-09-24. ChatGPT: used for the first test images, 2026-09-24 (owner's choice). Others: _Pending_ |
+| Uploading her photos to specific AI tools (list each) | Everygen: yes, per owner, 2026-09-24. ChatGPT: used for the first test images, 2026-09-24 (owner's choice). **Higgsfield: planned for all talking videos; _her OK pending_.** Others: _Pending_ |
 | Organic social posts | _Pending_ |
 | Paid ads, sponsored posts, product endorsements | _Pending_ (needed before any brand deal) |
 | Sensitive topics (political, medical, financial) | No. Already excluded by `01-profile.md`. |
