@@ -19,4 +19,4 @@ Two AI collaborators write competing versions of each post. The owner picks.
 
 | Brief | For | Status |
 |---|---|---|
-| [`codex-brief-launch-alternates.md`](codex-brief-launch-alternates.md) | Codex: alternates for weeks 1–3 | Open |
+| [`codex-brief-launch-alternates.md`](codex-brief-launch-alternates.md) | Codex: alternates for weeks 1–3 (paste [`codex-prompt.md`](codex-prompt.md) into Codex) | Open |

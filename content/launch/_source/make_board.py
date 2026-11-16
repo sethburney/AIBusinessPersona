@@ -102,6 +102,8 @@ def week_section(w):
 </section>'''
 
 
+CODEX_PROMPT = 'You\'re working in the GitHub repository sethburney/AIBusinessPersona, on branch claude/ai-persona-business-education-yw0yla.\n\nTASK\nWrite alternate versions (Option B) of Remi\'s 12 launch posts for weeks 1–3. The full brief is in collab/codex-brief-launch-alternates.md (also GitHub issue #1).\n\nREAD FIRST\nGUARDRAILS.md (binding), content/messaging-framework.md, persona/01-profile.md, persona/02-backstory.md, persona/04-voice-and-style.md, content/launch/README.md, content/launch/week-1.md, content/launch/week-2.md, content/launch/week-3.md, research/playbook-content-map.md.\n\nFOR EACH PIECE (W1-MON, W1-WED, W1-FRI, W1-BRIDGE, W2-MON, W2-WED, W2-FRI, W2-BRIDGE, W3-MON, W3-WED, W3-FRI, W3-BRIDGE)\n1. Review Claude\'s Option A in 2–4 bullets: what\'s strongest, what could hook harder.\n2. Write a production-ready Option B that builds on A\'s creativity: same goal and source lesson, a fresh hook or angle.\n   - Videos: title, length, start image from assets/face/approved/, spoken script, on-screen text with timings, performance notes, a complete Higgsfield prompt (same structure as Option A\'s), and a caption.\n   - Carousels: 6–10 slides of copy (4:5) and a caption.\n3. One line on what Option B tests that A doesn\'t.\n\nALSO\nPropose 3–5 alternatives to the core line "You\'re not behind. You\'re in a great place to start." Each must be encouraging, make sense on its own, and push the viewer toward one action. Put them at the top of week-1-codex.md.\n\nRULES\n- Remi is openly AI with "my human" behind her. She never claims a human life (family, home, degree, job history).\n- Protect the owner\'s identity: no company, industry, market, customers, job title, team size, dates, exact counts, or precise percentages. Say "my human\'s team" and use soft language ("a fraction of the time," "roughly half or more").\n- No invented statistics, studies, quotes, or results. Only use what the playbook supports, kept directional.\n- Tone: fun, bubbly, professional, encouraging. Open with a familiar frustration, never fear or FOMO. Show what flopped as well as what worked. End with one small next step.\n- Reels 20–50 seconds (about 150 words per minute). Bridges 10–20 seconds. Plain language, short sentences, no em dashes.\n\nOUTPUT\nCreate content/launch/alternates/week-1-codex.md, week-2-codex.md and week-3-codex.md, with pieces in the same order and IDs as the week files. Don\'t edit any other file. Commit on a new branch named codex/launch-alternates and open a pull request into claude/ai-persona-business-education-yw0yla.'
+
 n_videos = sum(1 for w in WEEKS for p in w["posts"] if p["type"] == "video") + len(WEEKS)
 n_car = sum(1 for w in WEEKS for p in w["posts"] if p["type"] == "carousel")
 nav = "".join(f'<a href="#week-{w["num"]}">Week {w["num"]}<span>{E(w["name"])}</span></a>' for w in WEEKS)
@@ -238,6 +240,10 @@ h4 {{ font-size: 12px; text-transform: uppercase; letter-spacing: .07em; color: 
 .s-end h5 {{ font-size: 21px }}
 .sign {{ font-family: var(--f-mono); font-size: 10.5px; font-weight: 600; margin-top: 4px }}
 
+.codex {{ background: var(--surface); border: 2px solid var(--accent); border-radius: 16px; padding: 18px; display: grid; gap: 12px }}
+.codex h2 {{ font-size: 22px; margin-top: 2px }}
+.codex p {{ margin: 6px 0 0; color: var(--muted); max-width: 70ch }}
+.codex .copywrap pre {{ max-height: 420px }}
 footer {{ color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); padding-top: 14px }}
 
 @media (max-width: 980px) {{
@@ -284,6 +290,12 @@ footer {{ color: var(--muted); font-size: 13px; border-top: 1px solid var(--line
     <div class="rule-card"><h2>Keep it anonymous</h2><ul><li>"My human's team," never the company, industry or market</li><li>No job title, team size, dates or exact figures</li><li>Blur distinctive incidents; keep the lesson</li><li>Mock data only, never real screens</li></ul></div>
     <div class="rule-card"><h2>Before anything posts</h2><ul class="todo"><li>✓ Likeness approved, incl. talking video and Higgsfield</li><li>Pick and record Remi's Higgsfield voice</li><li>Decide: GitHub repository private or public</li><li>AI label on, every post</li></ul></div>
   </div>
+
+  <section class="codex" id="send-to-codex">
+    <div><span class="eyebrow">Claude + Codex</span><h2>Send to Codex</h2>
+    <p>Paste this into Codex with the repository selected. Codex writes an Option B for every post; you pick A or B each week in <code>content/launch/picks.md</code>.</p></div>
+    {copy_block("Prompt for Codex", CODEX_PROMPT, open_=True)}
+  </section>
 
   <nav class="weeknav" aria-label="Weeks">{nav}</nav>
 
