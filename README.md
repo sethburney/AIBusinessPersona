@@ -29,6 +29,8 @@ assets/face/              Approved persona images (reference photos stay local a
 research/                 Audience research, competitor notes, sources
 collab/                   Claude + Codex briefs; owner picks the best of both
 GUARDRAILS.md             Transparency, accuracy, and platform rules
+STYLE-GUIDE.md            Human Voice Check: plain American English, no AI tells
+tools/voice_check.py      Automatic reading-level and AI-tell checker
 DECISIONS.md              Log of key decisions and the reasons for them
 ```
 

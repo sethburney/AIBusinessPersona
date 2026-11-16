@@ -39,6 +39,10 @@ Major platforms have policies on AI-generated images, video, and synthetic peopl
 - Impact figures from the owner's playbook are directional estimates, not audited results. Keep them as ranges with "roughly" or "in our experience," and never turn them into promises.
 - Posts about the owner's work projects stay company-neutral and need the owner's comfort (and, if required, the employer's permission) before sharing.
 
+## 4b. Human voice
+
+Every public word passes the Human Voice Check in `STYLE-GUIDE.md`: plain American English at a grade 8 reading level or easier, no AI tells, an automatic score, cross-review by the other AI, and read-aloud by the owner and the owner's wife.
+
 ## 5. Sponsorships and affiliate links
 
 If the persona ever promotes a product for pay or commission, the post must disclose it clearly, following the platform's rules and applicable advertising law. _Details TBD if this becomes relevant._

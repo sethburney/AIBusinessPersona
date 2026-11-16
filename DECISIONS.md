@@ -4,6 +4,7 @@ Record each key decision, the options considered, and why we chose what we did. 
 
 | Date | Decision | Options considered | Reasoning | Open risks |
 |---|---|---|---|---|
+| 2026-11-16 | Added the Human Voice Check: grade 8 or easier, American English, banned AI tells, automatic checker, Claude/Codex cross-review, and read-aloud by owner and wife; required before any pick is final | Rely on AI review alone | AI reviewing AI shares the same habits; a human read-aloud is the real test | Reading-level formulas are rough on short text; the checker can't catch every unnatural line |
 | 2026-11-16 | Claude writes Option A, Codex writes Option B for each post; owner picks weekly in `content/launch/picks.md` | Claude only | Owner wants the best of both AIs | Codex must follow the same guardrails; its output needs the same review before posting |
 | 2026-11-16 | Core line changed to "You're not behind. You're in a great place to start," always paired with a concrete action | "You're right here" | Owner found "right here" unclear; the new line is encouraging and points to action | None |
 | 2026-11-16 | Wife approved use of her NIL for the project (per owner): images, silent and lip-synced video, Higgsfield uploads | n/a | Owner relayed her approval | Paid endorsements, a trained/saved avatar, and cloning her real voice still to confirm separately |
