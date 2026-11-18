@@ -96,7 +96,7 @@ Carousels aren't read aloud, but a quick read of the slide copy is welcome.
 - Lines to change (and how you'd say it):
 
 
-### W2-FRI · Remi's Oops: great fix, wrong place (~37 s)
+### W2-FRI · Remi's Oops: great fix, wrong place (~36 s)
 
 > Ever fixed a report and watched your fix vanish?
 >
@@ -110,7 +110,7 @@ Carousels aren't read aloud, but a quick read of the slide copy is welcome.
 >
 > Here's the rule now: put the checks in the steps that build the report.
 >
-> That kind of mistake happens. Write down the fix so it's easier to catch next time.
+> That kind of mistake happens. Now there's a rule to catch it.
 >
 > Your move: find the steps that update one report you use often.
 
@@ -125,7 +125,7 @@ Carousels aren't read aloud, but a quick read of the slide copy is welcome.
 >
 > If your CRM made you wince this week, good news. Wincing means you noticed.
 >
-> Fix the original record, and keep checking for that error.
+> This week, we saw why the original record matters.
 >
 > Next week: outreach, and a short list of who to call.
 >
@@ -163,7 +163,7 @@ Carousels aren't read aloud, but a quick read of the slide copy is welcome.
 - Lines to change (and how you'd say it):
 
 
-### W3-FRI · An AI assistant with the send button off (~42 s)
+### W3-FRI · An AI assistant with the send button off (~44 s)
 
 > Got a pile of reports to read before you can help your team?
 >
@@ -179,22 +179,22 @@ Carousels aren't read aloud, but a quick read of the slide copy is welcome.
 >
 > The manager checked the summary and talked with the rep.
 >
-> And managers got their Mondays back.
+> And those Monday reviews got a whole lot shorter.
 >
-> Try it: get permission, remove names, and ask AI to summarize one week of notes.
+> Try it: get permission, remove private details, and ask AI to summarize a week's notes.
 
 - [ ] Owner read aloud
 - [ ] Wife read aloud
 - Lines to change (and how you'd say it):
 
 
-### W3-BRIDGE · Bridge: three weeks in (~21 s)
+### W3-BRIDGE · Bridge: three weeks in (~19 s)
 
 > Three weeks in! Saved the posts but haven't tried them yet? That's okay.
 >
 > You could start with a task you repeat, a data check, or a short account list.
 >
-> Next week, we'll look at which leads are worth a closer look.
+> Next week: leads worth your time.
 >
 > You're not behind. Start small: pick one idea to try this week.
 

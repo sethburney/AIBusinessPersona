@@ -80,7 +80,7 @@ AVOID: other people, on-screen text, captions, subtitles, logos, brand names, ri
 ```text
 The scroll before the call is real. 📋
 
-My human's team wrote down what a good-fit account looks like. AI sorted the list, and each rep got a short weekly focus list. People checked every list.
+My human's team wrote down what a good-fit account looks like. AI sorted the list, and each rep got a short weekly focus list. Each rep had a place to start, and people made the final call.
 
 Start by writing down what makes an account a good fit.
 
@@ -104,7 +104,7 @@ Start by writing down what makes an account a good fit.
 | 6 | Step 5 | **AI drafts. A person edits.** Check every detail and make it sound like you. Don't pretend you know them or make up facts. |
 | 7 | Step 6 | **Know when to stop** Replied? Booked a meeting? Asked you to stop? Pause the follow-up plan and let a person take over. |
 | 8 | Step 7 | **Check the week** Every Monday, my human's team checked which focus accounts got contacted. |
-| 9 | Closer | **You're not behind. Start small.** Rewrite one "just checking in" as a useful question. |
+| 9 | Closer | **You're not behind. Start small.** Rewrite one "just checking in" as a useful question. @remitobor |
 
 **Caption**
 
@@ -120,9 +120,9 @@ Rewrite one filler follow-up as a useful question.
 
 ### W3-FRI · Fri · The Handoff: An AI assistant with the send button off
 
-- **Format:** Talking-head reel, 9:16, about 42 s (106 words)
+- **Format:** Talking-head reel, 9:16, about 44 s (109 words)
 - **Start image:** `assets/face/approved/remi_profile_blue.jpg` (Profile, blue tank, plain light background; front-facing, best for talking videos)
-- **Source:** Final: blend (Codex's framing and front-facing image + Claude's Mondays-back payoff). Playbook Lesson 7 (generalized).
+- **Source:** Final: blend (Codex's framing and front-facing image + Claude's Monday payoff, softened to match the playbook). Playbook Lesson 7 (generalized).
 - **Status:** Ready for Higgsfield
 
 **Script (spoken)**
@@ -141,9 +141,9 @@ Rewrite one filler follow-up as a useful question.
 >
 > The manager checked the summary and talked with the rep.
 >
-> And managers got their Mondays back.
+> And those Monday reviews got a whole lot shorter.
 >
-> Try it: get permission, remove names, and ask AI to summarize one week of notes.
+> Try it: get permission, remove private details, and ask AI to summarize a week's notes.
 
 **On-screen text (add in editing)**
 
@@ -152,13 +152,13 @@ Rewrite one filler follow-up as a useful question.
 | 0–5 s | A pile of reports every Monday? 🏔️ |
 | 5–15 s | 1 AI assistant per rep |
 | 15–24 s | It reads and reports. That's it. |
-| 24–29 s | Managers get their Mondays back |
-| 29–end | Get permission. Remove names. Try one summary. |
+| 24–29 s | Shorter Monday reviews 🙌 |
+| 29–end | Get permission. Remove private details. Try one summary. |
 
 **Higgsfield prompt (copy and paste)**
 
 ```text
-TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 42 seconds
+TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 44 seconds
 
 START IMAGE: remi_profile_blue.jpg (Profile, blue tank, plain light background; front-facing, best for talking videos). Use it as the avatar and first frame.
 
@@ -172,10 +172,10 @@ Then it suggested where the manager could help most.
 Here's the important part: it could read and report. That's it.
 No messages to reps. No edits to records. Think reading buddy, with the send button off.
 The manager checked the summary and talked with the rep.
-And managers got their Mondays back.
-Try it: get permission, remove names, and ask AI to summarize one week of notes.
+And those Monday reviews got a whole lot shorter.
+Try it: get permission, remove private details, and ask AI to summarize a week's notes.
 
-PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Mock-overwhelmed look on "a pile of reports." Clear, even emphasis on each limit. Playful half-smile on "send button off." Big warm smile on "Mondays back." Hands stay low.
+PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Mock-overwhelmed look on "a pile of reports." Clear, even emphasis on each limit. Playful half-smile on "send button off." Big warm smile on "a whole lot shorter." Hands stay low.
 
 CAMERA: Steady chest-up framing with a very slow, subtle push-in.
 
@@ -191,7 +191,7 @@ What if every rep had an assistant that only reads and reports? 👀
 
 No messages. No edits. The manager checks the summary and talks with the rep.
 
-Get permission, remove names, and try one AI summary of a week's notes.
+Get permission, remove private details, and try one AI summary of a week's notes.
 
 #AIforBusiness #WorkSmarter #SalesOps #MarketingOps #AItools #RemiTobor
 ```
@@ -200,7 +200,7 @@ Get permission, remove names, and try one AI summary of a week's notes.
 
 ### W3-BRIDGE · Sun · You're Not Behind: Bridge: three weeks in
 
-- **Format:** Talking-head reel, 9:16, about 21 s (53 words)
+- **Format:** Talking-head reel, 9:16, about 19 s (47 words)
 - **Start image:** `assets/face/approved/remi_profile_blue.jpg` (Profile, blue tank, plain light background; front-facing, best for talking videos)
 - **Source:** Final: Codex, with Claude's three-weeks-in opener. Bridge series.
 - **Status:** Ready for Higgsfield
@@ -211,7 +211,7 @@ Get permission, remove names, and try one AI summary of a week's notes.
 >
 > You could start with a task you repeat, a data check, or a short account list.
 >
-> Next week, we'll look at which leads are worth a closer look.
+> Next week: leads worth your time.
 >
 > You're not behind. Start small: pick one idea to try this week.
 
@@ -221,13 +221,13 @@ Get permission, remove names, and try one AI summary of a week's notes.
 |---|---|
 | 0–4 s | 3 weeks in 🎉 |
 | 4–10 s | Saved it? That counts. |
-| 10–15 s | Next: leads worth a closer look |
+| 10–15 s | Next: leads worth your time |
 | 15–end | Pick one idea to try |
 
 **Higgsfield prompt (copy and paste)**
 
 ```text
-TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 21 seconds
+TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 19 seconds
 
 START IMAGE: remi_profile_blue.jpg (Profile, blue tank, plain light background; front-facing, best for talking videos). Use it as the avatar and first frame.
 
@@ -236,7 +236,7 @@ VOICE: Remi's saved stock voice (same voice every time; never a clone of a real 
 SCRIPT (speak exactly, with natural pauses between lines):
 Three weeks in! Saved the posts but haven't tried them yet? That's okay.
 You could start with a task you repeat, a data check, or a short account list.
-Next week, we'll look at which leads are worth a closer look.
+Next week: leads worth your time.
 You're not behind. Start small: pick one idea to try this week.
 
 PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Proud, beaming smile on "Three weeks in!" Warm and welcoming on "That's okay." Brightens on the preview. Small reassuring nod at the end.
@@ -253,7 +253,7 @@ AVOID: other people, on-screen text, captions, subtitles, logos, brand names, ri
 ```text
 Three weeks in. Saving the posts counts as a start. 🎉
 
-Next week: which leads are worth a closer look.
+Next week: leads worth your time.
 
 Pick one idea from these posts to try this week.
 

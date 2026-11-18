@@ -37,4 +37,11 @@ The owner chooses one option per slot each week. **A** = Claude, **B** = Codex (
 | W3-FRI | An AI assistant with the send button off | Blend | Pass | | | Codex's framing + Claude's "Mondays back" |
 | W3-BRIDGE | Bridge: three weeks in | B | Pass | | | Claude's opener added |
 
-**Still to do:** Codex cross-review of the final copy (check 3), then both read-alouds (checks 4 and 5) in `read-aloud.md`.
+**Check 3 (cross-review) done 2026-11-18:** Codex's review (`collab/final-copy-review-codex.md`, PR #5) found 4 slots ready and proposed edits for 8. Claude applied them, with two adjustments:
+- **W3-MON:** kept "People checked it." in the script. The playbook's core rule is "A rule that people approve the output." Softened the caption's "every list" claim. Owner to confirm.
+- **W3-FRI:** "Mondays back" became "those Monday reviews got a whole lot shorter," which is accurate to the playbook and still playful (Codex proposed a plainer line).
+- **W2-FRI:** Codex's intent, Remi's wording: "Now there's a rule to catch it."
+
+Voice check: 0 fails. Script/prompt match: 9 of 9.
+
+**Still to do:** both read-alouds (checks 4 and 5) in `read-aloud.md`. Scripts changed by the cross-review: W2-FRI, W2-BRIDGE, W3-MON (caption only), W3-FRI, W3-BRIDGE.

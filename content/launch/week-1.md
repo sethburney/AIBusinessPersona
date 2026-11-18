@@ -90,15 +90,15 @@ You're not behind. Tell me one task you'd love to make easier 👇
 
 | # | Slide | Copy |
 |---|---|---|
-| 1 | Cover | **Still starting AI from scratch every time?** Meet the 3 stages. Which one are you in? *(Image: `assets/face/approved/remi_profile_blue.jpg`)* |
+| 1 | Cover | **Still explaining the same task to AI?** Meet the 3 stages. Which one are you in? *(Image: `assets/face/approved/remi_profile_blue.jpg`)* |
 | 2 | Stage 1 | **Ask** You ask AI for a one-off task. "Write this email." "Summarize this doc." Handy. But next time, you start over. |
-| 3 | Stage 2 | **Build** You save the steps, a template, and your fixes. AI runs the task the same way every time. |
+| 3 | Stage 2 | **Build** You save the steps, a template, and your fixes. Next time, give AI those steps and check its work. |
 | 4 | Stage 3 | **Delegate** The task runs on a schedule and reports back. You review it. You decide. |
 | 5 |  | **A draft still needs checks** A polished answer can still miss something. Make checking the work part of your saved steps. |
 | 6 |  | **Move up one stage** 1. Pick a task that bugged you twice this month. 2. Do it with AI once. Fix what it gets wrong. 3. Ask AI to write down the steps. 4. Next time, start from those steps. |
 | 7 | Prompt | **Steal this prompt** Write down the steps we just used. Include my corrections so I can use them again. |
 | 8 |  | **One rule at every stage** AI drafts. A human decides. |
-| 9 | Closer | **You're not behind. Start small.** Comment your stage (1, 2, or 3). I'll help you with the next step. |
+| 9 | Closer | **You're not behind. Start small.** Comment your stage (1, 2, or 3). I'll help you with the next step. @remitobor |
 
 **Caption**
 

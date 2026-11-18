@@ -96,11 +96,11 @@ Ask AI to write a check for one blank that keeps coming back.
 | 1 | Cover | **Does your team agree on what "clean" means?** 5 rules for a CRM your team will actually keep clean. *(Image: `assets/face/approved/remi_monday_cover_one_point.jpg`)* |
 | 2 | Rule 1 | **Write down "clean"** List the fields every contact and deal needs. One page, with an example. |
 | 3 | Rule 2 | **One rulebook** Keep the standard in one shared place. People and AI tools use the same version. |
-| 4 | Rule 3 | **Let checks find the gaps** Have a report flag missing or wrong fields every day. AI flags the gap. It never makes up the missing detail. |
+| 4 | Rule 3 | **Let checks find the gaps** Have a report flag missing or wrong fields every day. Tell AI to flag gaps, not fill them in. Check the results. |
 | 5 | Rule 4 | **Fix the original record** Fixing the report leaves the record wrong. The next refresh brings the error right back. |
 | 6 | Rule 5 | **Check every week** Look at the errors that keep showing up, and fix why they happen. |
 | 7 | Prompt | **Steal this prompt** Here are our team standards and this week's CRM activity. List every place the standards weren't followed, grouped by rule. Suggest any new rule that would have prevented a repeat problem, and explain why. I'll decide which ones to adopt. |
-| 8 | Closer | **You're not behind. Start small.** Write one clean-record rule this week, with an example. |
+| 8 | Closer | **You're not behind. Start small.** Write one clean-record rule this week, with an example. @remitobor |
 
 **Caption**
 
@@ -116,7 +116,7 @@ Start small: write one clean-record rule this week.
 
 ### W2-FRI · Fri · Remi's Oops: Remi's Oops: great fix, wrong place
 
-- **Format:** Talking-head reel, 9:16, about 37 s (93 words)
+- **Format:** Talking-head reel, 9:16, about 36 s (89 words)
 - **Start image:** `assets/face/approved/remi_profile_blue.jpg` (Profile, blue tank, plain light background; front-facing, best for talking videos)
 - **Source:** Final: Codex (accurate to the playbook), with "sorted" and the canned line removed. Playbook: Rules we learned the hard way.
 - **Status:** Ready for Higgsfield
@@ -135,7 +135,7 @@ Start small: write one clean-record rule this week.
 >
 > Here's the rule now: put the checks in the steps that build the report.
 >
-> That kind of mistake happens. Write down the fix so it's easier to catch next time.
+> That kind of mistake happens. Now there's a rule to catch it.
 >
 > Your move: find the steps that update one report you use often.
 
@@ -151,7 +151,7 @@ Start small: write one clean-record rule this week.
 **Higgsfield prompt (copy and paste)**
 
 ```text
-TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 37 seconds
+TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 36 seconds
 
 START IMAGE: remi_profile_blue.jpg (Profile, blue tank, plain light background; front-facing, best for talking videos). Use it as the avatar and first frame.
 
@@ -164,7 +164,7 @@ They added data checks right into a finished report. Looked great!
 Then the report refreshed overnight. Poof. The checks were gone.
 The fix was in the wrong place.
 Here's the rule now: put the checks in the steps that build the report.
-That kind of mistake happens. Write down the fix so it's easier to catch next time.
+That kind of mistake happens. Now there's a rule to catch it.
 Your move: find the steps that update one report you use often.
 
 PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Sympathetic smile on the opening. Bright "Looked great!" then a surprised pause before "Poof." Clear and steady on the rule. Kind nod to finish. Hands stay low.
@@ -192,7 +192,7 @@ Find the steps that update one report you use often.
 
 ### W2-BRIDGE · Sun · You're Not Behind: Bridge: into outreach week
 
-- **Format:** Talking-head reel, 9:16, about 20 s (50 words)
+- **Format:** Talking-head reel, 9:16, about 20 s (49 words)
 - **Start image:** `assets/face/approved/remi_profile_blue.jpg` (Profile, blue tank, plain light background; front-facing, best for talking videos)
 - **Source:** Final: Codex, with Claude's wince line. Bridge series.
 - **Status:** Ready for Higgsfield
@@ -203,7 +203,7 @@ Find the steps that update one report you use often.
 >
 > If your CRM made you wince this week, good news. Wincing means you noticed.
 >
-> Fix the original record, and keep checking for that error.
+> This week, we saw why the original record matters.
 >
 > Next week: outreach, and a short list of who to call.
 >
@@ -229,7 +229,7 @@ VOICE: Remi's saved stock voice (same voice every time; never a clone of a real 
 SCRIPT (speak exactly, with natural pauses between lines):
 Week two, done!
 If your CRM made you wince this week, good news. Wincing means you noticed.
-Fix the original record, and keep checking for that error.
+This week, we saw why the original record matters.
 Next week: outreach, and a short list of who to call.
 You're not behind. Write down what makes an account a good fit.
 

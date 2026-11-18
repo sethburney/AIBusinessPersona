@@ -34,6 +34,8 @@ def carousel_md(p):
         else:
             body = s.get("body", "")
         label = s.get("label", {"cover": "Cover", "end": "Closer", "prompt": "Prompt"}.get(s["kind"], ""))
+        if s["kind"] == "end":
+            body += " @remitobor"
         head = f"**{s['head']}**"
         if s.get("image"):
             body += f" *(Image: `assets/face/approved/{IMAGES[s['image']][0]}`)*"
