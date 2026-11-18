@@ -1,64 +1,73 @@
 # Week 2: Clean data, connected systems
 
-> **Pillar:** Pillar 1 · **Goal:** Show that messy data is fixable with simple standards and checks, and that the fix belongs at the source.
+> **Pillar:** Pillar 1 · **Goal:** Show that messy data is fixable with simple standards and checks, and that the fix belongs in the original record.
 > Generated from the launch content source; see `README.md` in this folder for the workflow and rules.
 
 | Day | Series | Post | Format |
 |---|---|---|---|
-| Mon | Level-Up Monday | What if your report found the errors for you? | Talking-head reel |
-| Wed | The Playbook | 5 rules for a clean CRM your team will actually follow | Carousel |
-| Fri | Remi's Oops | Remi's Oops: the fix that disappeared overnight | Talking-head reel |
+| Mon | Level-Up Monday | The error with a round-trip ticket | Talking-head reel |
+| Wed | The Playbook | 5 rules for a CRM your team will actually keep clean | Carousel |
+| Fri | Remi's Oops | Remi's Oops: great fix, wrong place | Talking-head reel |
 | Sun | You're Not Behind | Bridge: into outreach week | Talking-head reel |
 
-### W2-MON · Mon · Level-Up Monday: What if your report found the errors for you?
+### W2-MON · Mon · Level-Up Monday: The error with a round-trip ticket
 
-- **Format:** Talking-head reel, 9:16, about 48 s (119 words)
+- **Format:** Talking-head reel, 9:16, about 37 s (92 words)
 - **Start image:** `assets/face/approved/remi_monday_cover_one_point.jpg` (At the desk, pointing to open space)
-- **Source:** Playbook Lesson 11 (generalized; figure softened from the stated range)
+- **Source:** Final: Codex, with Claude's directional result line. Playbook Lesson 11 (generalized).
 - **Status:** Ready for Higgsfield
 
 **Script (spoken)**
 
-> Every month-end, somebody finds a deal entered wrong. No product. Wrong price. Missing term. They fix it in the report... and next month, it's wrong again.
+> Filled in that blank already? Why is it blank again?
 >
-> Here's what my human's team did instead. They built a report that rebuilds itself from the CRM every morning and flags bad data on every deal, pointing to the exact record to fix.
+> Looks like that error bought a round-trip ticket.
 >
-> The magic isn't the report. It's that people fix the problem where it starts. Do that every week, and your data actually gets cleaner instead of getting patched every month.
+> I'm Remi, your AI work bestie. Here's what helped my human's team.
 >
-> In our experience, month-end cleanup dropped by roughly half or more.
+> Their report updated itself from the CRM every morning.
 >
-> Try it: list your five most common entry mistakes, and ask AI to write a check for each one.
+> It flagged missing or wrong details and showed which record to fix.
+>
+> Once they fixed the original record, the next report used the right details.
+>
+> In our experience, cleanup took about half as long, sometimes less.
+>
+> Try one small thing: ask AI to write a check for one blank that keeps coming back.
 
 **On-screen text (add in editing)**
 
 | Time | Text |
 |---|---|
-| 0–8 s | Same data errors. Every. Month. 😩 |
-| 8–20 s | Build a report that flags its own errors |
-| 20–30 s | Fix the record, not the report |
-| 30–end | Try it: 5 mistakes → 5 checks |
+| 0–5 s | Fixed it… and it's back? 😩 |
+| 5–15 s | The report flags what's wrong |
+| 15–22 s | Fix the original record |
+| 22–end | Write one check for a repeat error |
 
 **Higgsfield prompt (copy and paste)**
 
 ```text
-TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 48 seconds
+TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 37 seconds
 
 START IMAGE: remi_monday_cover_one_point.jpg (At the desk, pointing to open space). Use it as the avatar and first frame.
 
-VOICE: Remi's saved voice (same voice every time). Bright, warm, upbeat and conversational, with a smile in it. Natural pace, about 150 words per minute. Clear and confident, never salesy.
+VOICE: Remi's saved stock voice (same voice every time; never a clone of a real person's voice). Bright, warm, upbeat and conversational, with a smile in it. Natural pace, about 150 words per minute. Clear and confident, never salesy.
 
 SCRIPT (speak exactly, with natural pauses between lines):
-Every month-end, somebody finds a deal entered wrong. No product. Wrong price. Missing term. They fix it in the report... and next month, it's wrong again.
-Here's what my human's team did instead. They built a report that rebuilds itself from the CRM every morning and flags bad data on every deal, pointing to the exact record to fix.
-The magic isn't the report. It's that people fix the problem where it starts. Do that every week, and your data actually gets cleaner instead of getting patched every month.
-In our experience, month-end cleanup dropped by roughly half or more.
-Try it: list your five most common entry mistakes, and ask AI to write a check for each one.
+Filled in that blank already? Why is it blank again?
+Looks like that error bought a round-trip ticket.
+I'm Remi, your AI work bestie. Here's what helped my human's team.
+Their report updated itself from the CRM every morning.
+It flagged missing or wrong details and showed which record to fix.
+Once they fixed the original record, the next report used the right details.
+In our experience, cleanup took about half as long, sometimes less.
+Try one small thing: ask AI to write a check for one blank that keeps coming back.
 
-PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Mock exasperated sigh on "wrong again," then brightens on "here's what my human's team did instead." Points beside her on the "try it" line.
+PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Mock-surprised eyebrows on "blank again?" Light laugh on the round-trip ticket. Slows down a little to explain the report. Encouraging nod on the last line.
 
 CAMERA: Steady chest-up framing with a very slow, subtle push-in.
 
-KEEP: Her face, hair, smile, outfit and background identical to the start image in every frame. Lips match every word.
+KEEP: Her face, hair, smile, outfit and background identical to the start image in every frame. Lips match every word. Keep hands low and the face unobstructed. Remi is an AI character; the script is not a statement by the real person whose likeness she uses.
 
 AVOID: other people, on-screen text, captions, subtitles, logos, brand names, rings, distorted hands, extra fingers, exaggerated or rubbery mouth movement, robotic stillness, changes to her face, hair, outfit or background.
 ```
@@ -66,94 +75,103 @@ AVOID: other people, on-screen text, captions, subtitles, logos, brand names, ri
 **Caption**
 
 ```text
-Fixing the same CRM errors every month-end? 🙋
+That error came back because the original record still had it. 🧹
 
-Make the report find the errors, then fix them where they start. Your data gets cleaner every week instead of patched every month.
+My human's team let the report flag bad data. Then they fixed it where it started. AI flags it. A person fixes it.
 
-Starter step: list your 5 most common entry mistakes and ask AI to write a check for each. Which mistake is #1 on your team? 👇
+Ask AI to write a check for one blank that keeps coming back.
 
 #AIforBusiness #WorkSmarter #SalesOps #MarketingOps #AItools #RemiTobor
 ```
 
-### W2-WED · Wed · The Playbook: 5 rules for a clean CRM your team will actually follow
+### W2-WED · Wed · The Playbook: 5 rules for a CRM your team will actually keep clean
 
 - **Format:** Carousel, 8 slides, 4:5 (1080 × 1350)
 - **Design:** Brand template (see README): cornflower blue, white and soft pink; Remi photo on the cover only
-- **Source:** Playbook Lessons 8 and 11 (generalized)
+- **Source:** Final: blend (Codex's cover and no-made-up-data rule + Claude's 5 rules and prompt). Playbook Lessons 8 and 11 (generalized).
 - **Status:** Ready to design
 
 | # | Slide | Copy |
 |---|---|---|
-| 1 | Cover | **Your CRM isn't messy because your team is lazy.** It's messy because nobody wrote down what "clean" means. *(Image: `assets/face/approved/remi_monday_cover_one_point.jpg`)* |
-| 2 | Rule 1 | **Define a clean record** Write down which fields every contact and deal must have. One page. Include an example. |
-| 3 | Rule 2 | **One standard, one place** Keep the standards in a single doc that everyone (and every AI assistant) works from. |
-| 4 | Rule 3 | **Let the report catch errors** Build checks that flag missing or wrong fields every day, not at month-end. |
-| 5 | Rule 4 | **Fix it at the source** Correct the record, not the report. A hand-fixed report gets overwritten by the next refresh. |
-| 6 | Rule 5 | **Review weekly** A few minutes every Monday beats a cleanup weekend every quarter. |
-| 7 | Prompt | **Steal this prompt** Here are our team standards and this week's CRM activity. List every place the standards weren't followed, grouped by rule. Suggest any new rule that would have prevented a recurring problem, and explain why. I'll decide which ones to adopt. |
-| 8 | Closer | **Messy data doesn't mean you're behind.** It means you're ready for a system. Save this for Monday. |
+| 1 | Cover | **Does your team agree on what "clean" means?** 5 rules for a CRM your team will actually keep clean. *(Image: `assets/face/approved/remi_monday_cover_one_point.jpg`)* |
+| 2 | Rule 1 | **Write down "clean"** List the fields every contact and deal needs. One page, with an example. |
+| 3 | Rule 2 | **One rulebook** Keep the standard in one shared place. People and AI tools use the same version. |
+| 4 | Rule 3 | **Let checks find the gaps** Have a report flag missing or wrong fields every day. AI flags the gap. It never makes up the missing detail. |
+| 5 | Rule 4 | **Fix the original record** Fixing the report leaves the record wrong. The next refresh brings the error right back. |
+| 6 | Rule 5 | **Check every week** Look at the errors that keep showing up, and fix why they happen. |
+| 7 | Prompt | **Steal this prompt** Here are our team standards and this week's CRM activity. List every place the standards weren't followed, grouped by rule. Suggest any new rule that would have prevented a repeat problem, and explain why. I'll decide which ones to adopt. |
+| 8 | Closer | **You're not behind. Start small.** Write one clean-record rule this week, with an example. |
 
 **Caption**
 
 ```text
-5 rules for a CRM your team will actually keep clean 🧹
+"Clean" is easier to keep when everyone means the same thing. 🧹
 
-The big one: fix the record, not the report.
+5 rules, plus a prompt to steal on slide 7.
 
-Save this, and steal the prompt on slide 7. Which rule does your team need most? 👇
+Start small: write one clean-record rule this week.
 
 #AIforBusiness #WorkSmarter #SalesOps #MarketingOps #AItools #RemiTobor
 ```
 
-### W2-FRI · Fri · Remi's Oops: Remi's Oops: the fix that disappeared overnight
+### W2-FRI · Fri · Remi's Oops: Remi's Oops: great fix, wrong place
 
-- **Format:** Talking-head reel, 9:16, about 34 s (85 words)
+- **Format:** Talking-head reel, 9:16, about 37 s (93 words)
 - **Start image:** `assets/face/approved/remi_profile_blue.jpg` (Profile, blue tank, plain light background; front-facing, best for talking videos)
-- **Source:** Playbook "Rules we learned the hard way" (generalized)
+- **Source:** Final: Codex (accurate to the playbook), with "sorted" and the canned line removed. Playbook: Rules we learned the hard way.
 - **Status:** Ready for Higgsfield
 
 **Script (spoken)**
 
-> Remi's Oops! Time for a real mistake.
+> Ever fixed a report and watched your fix vanish?
 >
-> My human's team found errors in a report, so someone fixed them right in the report. Looked great.
+> Welcome to Remi's Oops! I'm AI, and this one comes from my human's team.
 >
-> Then the next morning, the report refreshed itself from the system... and every fix disappeared.
+> They added data checks right into a finished report. Looked great!
 >
-> The lesson became a permanent rule: change the process that builds the report, never just the report.
+> Then the report refreshed overnight. Poof. The checks were gone.
 >
-> If you've ever done this, you're in very good company. Mistakes aren't the problem. Repeating them is. Write the rule down once, and you won't make it twice.
+> The fix was in the wrong place.
+>
+> Here's the rule now: put the checks in the steps that build the report.
+>
+> That kind of mistake happens. Write down the fix so it's easier to catch next time.
+>
+> Your move: find the steps that update one report you use often.
 
 **On-screen text (add in editing)**
 
 | Time | Text |
 |---|---|
-| 0–3 s | Remi's Oops 🙈 |
-| 3–14 s | Fixed the report by hand... |
-| 14–20 s | ...the next refresh erased it all |
-| 20–end | Rule: fix the process, not the report |
+| 0–4 s | Remi's Oops 🙈 |
+| 4–12 s | Checks added to the finished report… |
+| 12–18 s | …gone after the refresh |
+| 18–end | Rule: put checks where the report gets built |
 
 **Higgsfield prompt (copy and paste)**
 
 ```text
-TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 34 seconds
+TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 37 seconds
 
 START IMAGE: remi_profile_blue.jpg (Profile, blue tank, plain light background; front-facing, best for talking videos). Use it as the avatar and first frame.
 
-VOICE: Remi's saved voice (same voice every time). Bright, warm, upbeat and conversational, with a smile in it. Natural pace, about 150 words per minute. Clear and confident, never salesy.
+VOICE: Remi's saved stock voice (same voice every time; never a clone of a real person's voice). Bright, warm, upbeat and conversational, with a smile in it. Natural pace, about 150 words per minute. Clear and confident, never salesy.
 
 SCRIPT (speak exactly, with natural pauses between lines):
-Remi's Oops! Time for a real mistake.
-My human's team found errors in a report, so someone fixed them right in the report. Looked great.
-Then the next morning, the report refreshed itself from the system... and every fix disappeared.
-The lesson became a permanent rule: change the process that builds the report, never just the report.
-If you've ever done this, you're in very good company. Mistakes aren't the problem. Repeating them is. Write the rule down once, and you won't make it twice.
+Ever fixed a report and watched your fix vanish?
+Welcome to Remi's Oops! I'm AI, and this one comes from my human's team.
+They added data checks right into a finished report. Looked great!
+Then the report refreshed overnight. Poof. The checks were gone.
+The fix was in the wrong place.
+Here's the rule now: put the checks in the steps that build the report.
+That kind of mistake happens. Write down the fix so it's easier to catch next time.
+Your move: find the steps that update one report you use often.
 
-PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Hand over mouth in playful "oops" at the start. Wide-eyed on "every fix disappeared." Reassuring smile and nod on "you're in very good company."
+PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Sympathetic smile on the opening. Bright "Looked great!" then a surprised pause before "Poof." Clear and steady on the rule. Kind nod to finish. Hands stay low.
 
 CAMERA: Steady chest-up framing with a very slow, subtle push-in.
 
-KEEP: Her face, hair, smile, outfit and background identical to the start image in every frame. Lips match every word.
+KEEP: Her face, hair, smile, outfit and background identical to the start image in every frame. Lips match every word. Keep hands low and the face unobstructed. Remi is an AI character; the script is not a statement by the real person whose likeness she uses.
 
 AVOID: other people, on-screen text, captions, subtitles, logos, brand names, rings, distorted hands, extra fingers, exaggerated or rubbery mouth movement, robotic stillness, changes to her face, hair, outfit or background.
 ```
@@ -161,11 +179,11 @@ AVOID: other people, on-screen text, captions, subtitles, logos, brand names, ri
 **Caption**
 
 ```text
-Remi's Oops 🙈 A real mistake from my human's team: hand-fixing a report that rebuilds itself every morning. Poof. Gone.
+Great fix. Wrong place. 🙈
 
-The rule now: change the process that builds the report, never just the report.
+My human's team added checks to a finished report, and the next refresh wiped them out. The rule now: put checks in the steps that build the report.
 
-Ever lost a fix like this? You're in good company 👇
+Find the steps that update one report you use often.
 
 #AIforBusiness #WorkSmarter #SalesOps #MarketingOps #AItools #RemiTobor
 ```
@@ -174,46 +192,52 @@ Ever lost a fix like this? You're in good company 👇
 
 ### W2-BRIDGE · Sun · You're Not Behind: Bridge: into outreach week
 
-- **Format:** Talking-head reel, 9:16, about 14 s (36 words)
+- **Format:** Talking-head reel, 9:16, about 20 s (50 words)
 - **Start image:** `assets/face/approved/remi_profile_blue.jpg` (Profile, blue tank, plain light background; front-facing, best for talking videos)
-- **Source:** Bridge series
+- **Source:** Final: Codex, with Claude's wince line. Bridge series.
 - **Status:** Ready for Higgsfield
 
 **Script (spoken)**
 
 > Week two, done!
 >
-> If your CRM made you wince this week, good news: wincing means you noticed. That's step one.
+> If your CRM made you wince this week, good news. Wincing means you noticed.
 >
-> Next week: outreach. How to stop deciding who to call every morning, and start actually calling.
+> Fix the original record, and keep checking for that error.
+>
+> Next week: outreach, and a short list of who to call.
+>
+> You're not behind. Write down what makes an account a good fit.
 
 **On-screen text (add in editing)**
 
 | Time | Text |
 |---|---|
 | 0–3 s | Week 2 ✅ |
-| 3–9 s | Noticing the mess IS step one |
-| 9–end | Next week: outreach that scales |
+| 3–8 s | Noticing is step one |
+| 8–end | Next: a short list of who to call |
 
 **Higgsfield prompt (copy and paste)**
 
 ```text
-TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 14 seconds
+TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 20 seconds
 
 START IMAGE: remi_profile_blue.jpg (Profile, blue tank, plain light background; front-facing, best for talking videos). Use it as the avatar and first frame.
 
-VOICE: Remi's saved voice (same voice every time). Bright, warm, upbeat and conversational, with a smile in it. Natural pace, about 150 words per minute. Clear and confident, never salesy.
+VOICE: Remi's saved stock voice (same voice every time; never a clone of a real person's voice). Bright, warm, upbeat and conversational, with a smile in it. Natural pace, about 150 words per minute. Clear and confident, never salesy.
 
 SCRIPT (speak exactly, with natural pauses between lines):
 Week two, done!
-If your CRM made you wince this week, good news: wincing means you noticed. That's step one.
-Next week: outreach. How to stop deciding who to call every morning, and start actually calling.
+If your CRM made you wince this week, good news. Wincing means you noticed.
+Fix the original record, and keep checking for that error.
+Next week: outreach, and a short list of who to call.
+You're not behind. Write down what makes an account a good fit.
 
-PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Little celebratory shoulder shimmy on "week two, done." Kind, knowing smile on the wince line. Energetic lean-in on the tease.
+PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Little celebratory shoulder shimmy on "Week two, done!" Kind, knowing smile on the wince line. Brightens on the preview. Encouraging nod at the end.
 
 CAMERA: Steady chest-up framing with a very slow, subtle push-in.
 
-KEEP: Her face, hair, smile, outfit and background identical to the start image in every frame. Lips match every word.
+KEEP: Her face, hair, smile, outfit and background identical to the start image in every frame. Lips match every word. Keep hands low and the face unobstructed. Remi is an AI character; the script is not a statement by the real person whose likeness she uses.
 
 AVOID: other people, on-screen text, captions, subtitles, logos, brand names, rings, distorted hands, extra fingers, exaggerated or rubbery mouth movement, robotic stillness, changes to her face, hair, outfit or background.
 ```
@@ -221,9 +245,11 @@ AVOID: other people, on-screen text, captions, subtitles, logos, brand names, ri
 **Caption**
 
 ```text
-Noticing the mess is step one. You're not behind, you're building. 💙
+Noticing the mess is step one. 💙
 
-Next week: outreach that doesn't eat your whole morning.
+Next week: outreach, starting with a short list of who to call.
+
+Write down what makes an account a good fit.
 
 #AIforBusiness #WorkSmarter #SalesOps #MarketingOps #AItools #RemiTobor
 ```

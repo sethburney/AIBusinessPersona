@@ -1,64 +1,70 @@
 # Week 1: Launch: meet Remi
 
-> **Pillar:** Intro · **Goal:** Introduce Remi, set the "you're not behind" tone, and explain the two frameworks followers will see every week.
+> **Pillar:** Intro · **Goal:** Introduce Remi, set the "you're not behind" tone, and explain the frameworks followers will see every week.
 > Generated from the launch content source; see `README.md` in this folder for the workflow and rules.
 
 | Day | Series | Post | Format |
 |---|---|---|---|
-| Mon | Level-Up Monday | Hi, I'm Remi (and you're not behind) | Talking-head reel |
-| Wed | The Playbook | Ask → Build → Delegate: which stage are you? | Carousel |
-| Fri | The Handoff | Build it. Prove it. Hand it off. | Talking-head reel |
+| Mon | Level-Up Monday | Same task, every week? Start here. | Talking-head reel |
+| Wed | The Playbook | Ask → Build → Delegate: which stage are you in? | Carousel |
+| Fri | The Handoff | Can your process run without you explaining it? | Talking-head reel |
 | Sun | You're Not Behind | Bridge: into messy data week | Talking-head reel |
 
-### W1-MON · Mon · Level-Up Monday: Hi, I'm Remi (and you're not behind)
+### W1-MON · Mon · Level-Up Monday: Same task, every week? Start here.
 
-- **Format:** Talking-head reel, 9:16, about 35 s (88 words)
+- **Format:** Talking-head reel, 9:16, about 30 s (76 words)
 - **Start image:** `assets/face/approved/remi_profile_blue.jpg` (Profile, blue tank, plain light background; front-facing, best for talking videos)
-- **Source:** Persona intro (no playbook lesson)
+- **Source:** Final: blend (Codex hook + Claude warmth). Persona intro.
 - **Status:** Ready for Higgsfield
 
 **Script (spoken)**
 
+> Still redoing the same email, report, or checklist every single week?
+>
 > Hi! I'm Remi. And yes, I'm AI, with a real human behind me.
 >
-> If you've been watching everyone talk about AI and thinking, "I'm already behind"... you're not. You're in a great place to start, and I'll show you exactly where.
+> My human builds real sales and marketing systems with AI.
 >
-> My human has spent years building real sales and marketing systems, and lately, building them with AI. Some worked. Some flopped. I'm going to show you both.
+> Some work. Some flop. I'll show you both.
 >
-> One simple idea at a time, so you can actually use it at work.
+> One idea at a time, so you can use it at work this week.
 >
-> Follow along. Let's level up together.
+> You're not behind. Start small: pick one task to make easier today.
+>
+> Tell me which one. Let's level up together.
 
 **On-screen text (add in editing)**
 
 | Time | Text |
 |---|---|
-| 0–3 s | Hi, I'm Remi 👋 (yes, I'm AI) |
-| 3–12 s | Feel behind on AI? You're not. |
-| 12–24 s | Real systems. Real wins. Real flops. |
-| 24–end | Follow for one idea a week you can actually use |
+| 0–4 s | Same task. Every week. 😩 |
+| 4–9 s | Hi, I'm Remi 👋 (yes, I'm AI) |
+| 9–17 s | Real systems. Real wins. Real flops. |
+| 17–end | Pick one task to make easier today |
 
 **Higgsfield prompt (copy and paste)**
 
 ```text
-TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 35 seconds
+TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 30 seconds
 
 START IMAGE: remi_profile_blue.jpg (Profile, blue tank, plain light background; front-facing, best for talking videos). Use it as the avatar and first frame.
 
-VOICE: Remi's saved voice (same voice every time). Bright, warm, upbeat and conversational, with a smile in it. Natural pace, about 150 words per minute. Clear and confident, never salesy.
+VOICE: Remi's saved stock voice (same voice every time; never a clone of a real person's voice). Bright, warm, upbeat and conversational, with a smile in it. Natural pace, about 150 words per minute. Clear and confident, never salesy.
 
 SCRIPT (speak exactly, with natural pauses between lines):
+Still redoing the same email, report, or checklist every single week?
 Hi! I'm Remi. And yes, I'm AI, with a real human behind me.
-If you've been watching everyone talk about AI and thinking, "I'm already behind"... you're not. You're in a great place to start, and I'll show you exactly where.
-My human has spent years building real sales and marketing systems, and lately, building them with AI. Some worked. Some flopped. I'm going to show you both.
-One simple idea at a time, so you can actually use it at work.
-Follow along. Let's level up together.
+My human builds real sales and marketing systems with AI.
+Some work. Some flop. I'll show you both.
+One idea at a time, so you can use it at work this week.
+You're not behind. Start small: pick one task to make easier today.
+Tell me which one. Let's level up together.
 
-PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Opens with a small wave and a big genuine smile. Leans in slightly on "you're not behind." Light laugh on "some flopped." Warm, steady eye contact throughout.
+PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Knowing eyebrow lift on the opening question. Small wave and a big smile on "Hi!" Light laugh on "Some flop." Leans in a little on "You're not behind." Warm smile to finish.
 
 CAMERA: Steady chest-up framing with a very slow, subtle push-in.
 
-KEEP: Her face, hair, smile, outfit and background identical to the start image in every frame. Lips match every word.
+KEEP: Her face, hair, smile, outfit and background identical to the start image in every frame. Lips match every word. Keep hands low and the face unobstructed. Remi is an AI character; the script is not a statement by the real person whose likeness she uses.
 
 AVOID: other people, on-screen text, captions, subtitles, logos, brand names, rings, distorted hands, extra fingers, exaggerated or rubbery mouth movement, robotic stillness, changes to her face, hair, outfit or background.
 ```
@@ -66,103 +72,108 @@ AVOID: other people, on-screen text, captions, subtitles, logos, brand names, ri
 **Caption**
 
 ```text
-Hi, I'm Remi 👋 Yes, I'm AI, with a real human behind me who checks everything I share.
+Doing the same task every week? Let's start there. 👋
 
-If AI at work feels like a race you're losing, I've got news: you're not behind. You're in a great place to start, and the first step is smaller than you think.
+I'm Remi. Yes, I'm AI, and my human checks everything I share. Every week: one real system, what worked, and what flopped.
 
-Every week: one real system, what worked, what flopped, and how to try it yourself.
-
-What's one task that eats your week? Tell me below 👇
+You're not behind. Tell me one task you'd love to make easier 👇
 
 #AIforBusiness #WorkSmarter #SalesOps #MarketingOps #AItools #RemiTobor
 ```
 
-### W1-WED · Wed · The Playbook: Ask → Build → Delegate: which stage are you?
+### W1-WED · Wed · The Playbook: Ask → Build → Delegate: which stage are you in?
 
-- **Format:** Carousel, 8 slides, 4:5 (1080 × 1350)
+- **Format:** Carousel, 9 slides, 4:5 (1080 × 1350)
 - **Design:** Brand template (see README): cornflower blue, white and soft pink; Remi photo on the cover only
-- **Source:** Playbook: "The arc: from asking to building to delegating"
+- **Source:** Final: blend, mostly Claude (Codex's checks slide and prompt added). Playbook: Ask, Build, Delegate.
 - **Status:** Ready to design
 
 | # | Slide | Copy |
 |---|---|---|
-| 1 | Cover | **Most people use AI at stage 1.** Which stage are you? *(Image: `assets/face/approved/remi_profile_blue.jpg`)* |
-| 2 | Stage 1 | **Ask** You bring AI a one-off task. "Write this email." "Summarize this doc." Helpful, but you start from zero every time. |
-| 3 | Stage 2 | **Build** The task you keep repeating becomes a system: written steps, a template, a few checks. AI runs it the same way every time. |
-| 4 | Stage 3 | **Delegate** The system runs on a schedule and reports back. You review. You decide. |
-| 5 |  | **Where the payoff lives** Most of the value is in stages 2 and 3. In our experience, once tasks moved from asking to building, AI use kept growing month after month. |
-| 6 |  | **Move up one stage** 1. Pick a task that annoyed you twice this month. 2. Do it with AI once. Correct it out loud. 3. Ask AI to write the steps down, with your corrections. 4. Next time, run it from those steps. |
-| 7 |  | **One rule at every stage** AI drafts. A human decides. |
-| 8 | Closer | **You're not behind. You're in a great place to start.** Comment your stage (1, 2 or 3) and I'll help you take the next step. |
+| 1 | Cover | **Still starting AI from scratch every time?** Meet the 3 stages. Which one are you in? *(Image: `assets/face/approved/remi_profile_blue.jpg`)* |
+| 2 | Stage 1 | **Ask** You ask AI for a one-off task. "Write this email." "Summarize this doc." Handy. But next time, you start over. |
+| 3 | Stage 2 | **Build** You save the steps, a template, and your fixes. AI runs the task the same way every time. |
+| 4 | Stage 3 | **Delegate** The task runs on a schedule and reports back. You review it. You decide. |
+| 5 |  | **A draft still needs checks** A polished answer can still miss something. Make checking the work part of your saved steps. |
+| 6 |  | **Move up one stage** 1. Pick a task that bugged you twice this month. 2. Do it with AI once. Fix what it gets wrong. 3. Ask AI to write down the steps. 4. Next time, start from those steps. |
+| 7 | Prompt | **Steal this prompt** Write down the steps we just used. Include my corrections so I can use them again. |
+| 8 |  | **One rule at every stage** AI drafts. A human decides. |
+| 9 | Closer | **You're not behind. Start small.** Comment your stage (1, 2, or 3). I'll help you with the next step. |
 
 **Caption**
 
 ```text
-Be honest: are you an Asker, a Builder or a Delegator? 🤖
+Are you an Asker, a Builder, or a Delegator? 🤖
 
-Most people stop at stage 1. The good stuff is in stages 2 and 3, and getting there is simpler than it sounds.
+In our experience, stages 2 and 3 are where AI saves the most time. Getting there is simpler than it sounds.
 
-Save this, then drop your stage in the comments 👇
+Tell me your stage in the comments 👇
 
 #AIforBusiness #WorkSmarter #SalesOps #MarketingOps #AItools #RemiTobor
 ```
 
-### W1-FRI · Fri · The Handoff: Build it. Prove it. Hand it off.
+### W1-FRI · Fri · The Handoff: Can your process run without you explaining it?
 
-- **Format:** Talking-head reel, 9:16, about 45 s (113 words)
+- **Format:** Talking-head reel, 9:16, about 43 s (107 words)
 - **Start image:** `assets/face/approved/remi_monday_cover_one_point.jpg` (At the desk, pointing to open space)
-- **Source:** Messaging framework (Build It, Prove It, Hand It Off)
+- **Source:** Final: Codex, with Claude's sign-off. Messaging framework: Build It, Prove It, Hand It Off.
 - **Status:** Ready for Higgsfield
 
 **Script (spoken)**
 
-> Here's the secret nobody tells you about AI at work: it doesn't make you efficient by itself. Systems do.
+> Built something with AI, but your team still needs you to explain every step?
 >
-> So everything I teach here follows three steps.
+> Let's get those steps out of your head and onto the page.
 >
-> Build it: take a task that eats your week and turn it into steps AI can follow.
+> I'm Remi, your AI work bestie. Every lesson here follows three steps.
 >
-> Prove it: track one number that tells you it's actually working.
+> Build it: give AI clear steps for a task you repeat.
 >
-> Hand it off: write it down so your team can run it without you.
+> Prove it: check that the result is right, and see if it saves time.
 >
-> Over the next few weeks we'll do this with messy CRM data, outreach and more, using what really happened when my human's team tried it.
+> Hand it off: write down who runs it and what they check.
 >
-> You don't need to do all of it. Just the next step. Stay human. I'll handle the robot stuff.
+> A fast draft can still be wrong. So we'll share the flops too.
+>
+> Start by writing the first step of one task you do often.
+>
+> Stay human. I'll handle the robot stuff.
 
 **On-screen text (add in editing)**
 
 | Time | Text |
 |---|---|
-| 0–6 s | AI doesn't make you efficient. Systems do. |
-| 8–13 s | 1. BUILD IT |
-| 13–18 s | 2. PROVE IT |
-| 18–24 s | 3. HAND IT OFF |
-| 24–end | Just the next step. 🤖 |
+| 0–6 s | Still explaining every step? |
+| 8–14 s | BUILD IT · clear steps |
+| 14–20 s | PROVE IT · check the result |
+| 20–26 s | HAND IT OFF · who runs it |
+| 26–end | Write the first step today ✍️ |
 
 **Higgsfield prompt (copy and paste)**
 
 ```text
-TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 45 seconds
+TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 43 seconds
 
 START IMAGE: remi_monday_cover_one_point.jpg (At the desk, pointing to open space). Use it as the avatar and first frame.
 
-VOICE: Remi's saved voice (same voice every time). Bright, warm, upbeat and conversational, with a smile in it. Natural pace, about 150 words per minute. Clear and confident, never salesy.
+VOICE: Remi's saved stock voice (same voice every time; never a clone of a real person's voice). Bright, warm, upbeat and conversational, with a smile in it. Natural pace, about 150 words per minute. Clear and confident, never salesy.
 
 SCRIPT (speak exactly, with natural pauses between lines):
-Here's the secret nobody tells you about AI at work: it doesn't make you efficient by itself. Systems do.
-So everything I teach here follows three steps.
-Build it: take a task that eats your week and turn it into steps AI can follow.
-Prove it: track one number that tells you it's actually working.
-Hand it off: write it down so your team can run it without you.
-Over the next few weeks we'll do this with messy CRM data, outreach and more, using what really happened when my human's team tried it.
-You don't need to do all of it. Just the next step. Stay human. I'll handle the robot stuff.
+Built something with AI, but your team still needs you to explain every step?
+Let's get those steps out of your head and onto the page.
+I'm Remi, your AI work bestie. Every lesson here follows three steps.
+Build it: give AI clear steps for a task you repeat.
+Prove it: check that the result is right, and see if it saves time.
+Hand it off: write down who runs it and what they check.
+A fast draft can still be wrong. So we'll share the flops too.
+Start by writing the first step of one task you do often.
+Stay human. I'll handle the robot stuff.
 
-PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Counts the three steps on her fingers (one, two, three) as she says them. Points to the open space beside her on "hand it off." Playful wink on the sign-off.
+PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Knowing smile on the opening question. A small nod for each of the three steps. Keeps hands low. Playful wink on the sign-off.
 
 CAMERA: Steady chest-up framing with a very slow, subtle push-in.
 
-KEEP: Her face, hair, smile, outfit and background identical to the start image in every frame. Lips match every word.
+KEEP: Her face, hair, smile, outfit and background identical to the start image in every frame. Lips match every word. Keep hands low and the face unobstructed. Remi is an AI character; the script is not a statement by the real person whose likeness she uses.
 
 AVOID: other people, on-screen text, captions, subtitles, logos, brand names, rings, distorted hands, extra fingers, exaggerated or rubbery mouth movement, robotic stillness, changes to her face, hair, outfit or background.
 ```
@@ -170,14 +181,14 @@ AVOID: other people, on-screen text, captions, subtitles, logos, brand names, ri
 **Caption**
 
 ```text
-AI won't make you efficient by itself. Systems do. 💡
+Your best process shouldn't live only in your head. ✍️
 
 Every lesson here follows 3 steps:
 1️⃣ Build it
 2️⃣ Prove it
 3️⃣ Hand it off
 
-Next week: messy CRM data, and how to stop fixing the same errors every month. Follow so you don't miss it.
+Start by writing the first step of one task you do often.
 
 #AIforBusiness #WorkSmarter #SalesOps #MarketingOps #AItools #RemiTobor
 ```
@@ -186,45 +197,52 @@ Next week: messy CRM data, and how to stop fixing the same errors every month. F
 
 ### W1-BRIDGE · Sun · You're Not Behind: Bridge: into messy data week
 
-- **Format:** Talking-head reel, 9:16, about 18 s (44 words)
+- **Format:** Talking-head reel, 9:16, about 17 s (43 words)
 - **Start image:** `assets/face/approved/remi_profile_blue.jpg` (Profile, blue tank, plain light background; front-facing, best for talking videos)
-- **Source:** Bridge series
+- **Source:** Final: Codex, with Claude's coffee line. Bridge series.
 - **Status:** Ready for Higgsfield
 
 **Script (spoken)**
 
-> Quick check-in. If this week felt like a lot, that's okay.
+> Still double-checking the same report?
 >
-> You're not behind. You're in a great place to start.
+> This week, we covered asking AI for help and saving the steps.
 >
-> Next week: messy CRM data. If your reports never quite add up, this one's for you. Bring your coffee. I'll bring the checklist.
+> Next week, we'll tackle messy CRM data.
+>
+> I'm Remi, your AI work bestie. You're not behind.
+>
+> Pick that report. Bring your coffee. I'll bring the checklist.
 
 **On-screen text (add in editing)**
 
 | Time | Text |
 |---|---|
-| 0–5 s | Feeling behind? You're not. |
-| 5–end | Next week: messy CRM data ☕ |
+| 0–3 s | Still double-checking that report? |
+| 3–8 s | Week 1: Ask → Build → Delegate |
+| 8–end | Next week: messy CRM data ☕ |
 
 **Higgsfield prompt (copy and paste)**
 
 ```text
-TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 18 seconds
+TALKING AVATAR (LIP-SYNC), 9:16 vertical, about 17 seconds
 
 START IMAGE: remi_profile_blue.jpg (Profile, blue tank, plain light background; front-facing, best for talking videos). Use it as the avatar and first frame.
 
-VOICE: Remi's saved voice (same voice every time). Bright, warm, upbeat and conversational, with a smile in it. Natural pace, about 150 words per minute. Clear and confident, never salesy.
+VOICE: Remi's saved stock voice (same voice every time; never a clone of a real person's voice). Bright, warm, upbeat and conversational, with a smile in it. Natural pace, about 150 words per minute. Clear and confident, never salesy.
 
 SCRIPT (speak exactly, with natural pauses between lines):
-Quick check-in. If this week felt like a lot, that's okay.
-You're not behind. You're in a great place to start.
-Next week: messy CRM data. If your reports never quite add up, this one's for you. Bring your coffee. I'll bring the checklist.
+Still double-checking the same report?
+This week, we covered asking AI for help and saving the steps.
+Next week, we'll tackle messy CRM data.
+I'm Remi, your AI work bestie. You're not behind.
+Pick that report. Bring your coffee. I'll bring the checklist.
 
-PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Relaxed and cozy, like a friend checking in. Soft smile, small nod on "a great place to start," playful raised eyebrow on the coffee line.
+PERFORMANCE: She talks straight to camera like a friend over coffee. Natural blinking, small head movements, expressive eyebrows. Relaxed and cozy, like a friend checking in. Soft smile on the opening. Small nod on "You're not behind." Playful raised eyebrow on the coffee line.
 
 CAMERA: Steady chest-up framing with a very slow, subtle push-in.
 
-KEEP: Her face, hair, smile, outfit and background identical to the start image in every frame. Lips match every word.
+KEEP: Her face, hair, smile, outfit and background identical to the start image in every frame. Lips match every word. Keep hands low and the face unobstructed. Remi is an AI character; the script is not a statement by the real person whose likeness she uses.
 
 AVOID: other people, on-screen text, captions, subtitles, logos, brand names, rings, distorted hands, extra fingers, exaggerated or rubbery mouth movement, robotic stillness, changes to her face, hair, outfit or background.
 ```
@@ -232,9 +250,11 @@ AVOID: other people, on-screen text, captions, subtitles, logos, brand names, ri
 **Caption**
 
 ```text
-Weekly reminder: you're not behind. You're in a great place to start. 💙
+Still double-checking the same report? Hold that thought. ☕
 
-Next week we're tackling messy CRM data. Turn on notifications so you catch it.
+Next week: messy CRM data, and simple checks that catch errors for you.
+
+Pick one report you keep double-checking.
 
 #AIforBusiness #WorkSmarter #SalesOps #MarketingOps #AItools #RemiTobor
 ```

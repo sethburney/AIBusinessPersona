@@ -102,7 +102,7 @@ def week_section(w):
 </section>'''
 
 
-CODEX_PROMPT = 'You\'re working in the GitHub repository sethburney/AIBusinessPersona, on branch claude/ai-persona-business-education-yw0yla.\n\nTASK\nReview and strengthen the "Human Voice Check," the standard that makes every Remi post sound like a real person, in plain American English, at a 6th–8th grade reading level or easier. Full brief: collab/codex-brief-voice-check-review.md.\n\nREAD FIRST\nSTYLE-GUIDE.md, tools/voice_check.py, GUARDRAILS.md, content/messaging-framework.md, content/launch/week-1.md to week-3.md, and your own alternates on branch codex/launch-alternates (content/launch/alternates/week-1-codex.md to week-3-codex.md).\n\nDO\n1. Run python3 tools/voice_check.py on all six week files. Report false positives and false negatives.\n2. Read every script in both Claude\'s and your versions as if out loud. List every line no real person would say, with a plain rewrite. Be as hard on your own work as on Claude\'s.\n3. Add any missing banned patterns, American English checks, or spoken-rhythm rules to STYLE-GUIDE.md. Keep it short and usable by non-technical people.\n4. Improve tools/voice_check.py where it\'s cheap and reliable. Keep it one dependency-free Python file.\n\nRULES\nKeep the grade-8 ceiling and the five-check process. Keep Remi\'s signature lines ("You\'re not behind," "Stay human. I\'ll handle the robot stuff," "my human"). No em dashes. Plain American English.\n\nOUTPUT\nPut your findings in collab/voice-check-review-codex.md. You may edit STYLE-GUIDE.md and tools/voice_check.py; list every change in the pull request description. Don\'t edit any other file. Commit on a new branch named codex/voice-check-review and open a pull request into claude/ai-persona-business-education-yw0yla.'
+CODEX_PROMPT = 'You\'re working in the GitHub repository sethburney/AIBusinessPersona, on branch claude/ai-persona-business-education-yw0yla.\n\nTASK\nCross-review the final launch copy for weeks 1–3 (check 3 of the Human Voice Check). The owner approved the picks; Claude wrote the final versions by blending Claude\'s and your drafts. You are the second set of eyes before the owner and wife read everything aloud.\n\nREAD FIRST\nSTYLE-GUIDE.md, GUARDRAILS.md (especially section 7), content/launch/picks.md (what was picked and why), and the final copy in content/launch/week-1.md, week-2.md and week-3.md. Your earlier drafts are in content/launch/alternates/ for reference.\n\nDO\n1. Run: python3 tools/voice_check.py content/launch/week-1.md content/launch/week-2.md content/launch/week-3.md (all should pass; report anything that doesn\'t).\n2. Read every script out loud in your head, plus every slide, on-screen line and caption. Flag any line that still sounds machine-written, unclear, British, too formal, or too flat. Give a plain rewrite for each.\n3. Check the rules: no identifying details about the owner or employer, no invented facts or figures, one next step per post, at least one playful line per script, Remi clearly AI, the script never presented as the real person\'s own words.\n4. Check that each Higgsfield prompt\'s script matches the spoken script exactly.\n5. Say what you\'d keep. If a slot is ready as is, say so.\n\nRULES\nNo em dashes. Plain American English. Don\'t edit the week files or anything in content/launch/_source/ (they\'re generated). Only create collab/final-copy-review-codex.md.\n\nOUTPUT\nWrite your findings in collab/final-copy-review-codex.md, one section per slot (W1-MON through W3-BRIDGE), each marked "Ready" or "Change," with exact current text and your proposed text. Commit on a new branch named codex/final-copy-review and open a pull request into claude/ai-persona-business-education-yw0yla. Claude applies accepted changes to the source.'
 
 n_videos = sum(1 for w in WEEKS for p in w["posts"] if p["type"] == "video") + len(WEEKS)
 n_car = sum(1 for w in WEEKS for p in w["posts"] if p["type"] == "carousel")
@@ -271,7 +271,7 @@ footer {{ color: var(--muted); font-size: 13px; border-top: 1px solid var(--line
     <div>
       <span class="eyebrow">@remitobor · Launch block · Weeks 1–3</span>
       <h1>Remi Launch Board</h1>
-      <p class="tag"><strong>You're not behind. You're in a great place to start.</strong> Three weeks of posts built on <strong>Build It, Prove It, Hand It Off</strong>, ready to go to Higgsfield.</p>
+      <p class="tag"><strong>You're not behind. Start small: pick one task to make easier today.</strong> Three weeks of posts built on <strong>Build It, Prove It, Hand It Off</strong>, ready to go to Higgsfield.</p>
       <div class="stats"><span>{len(WEEKS)} weeks</span><span>{n_videos} talking-head videos</span><span>{n_car} carousels</span><span>Mon · Wed · Fri + Sun bridge</span></div>
     </div>
   </header>
@@ -286,14 +286,14 @@ footer {{ color: var(--muted); font-size: 13px; border-top: 1px solid var(--line
   </div>
 
   <div class="rules">
-    <div class="rule-card core"><h2>You're not behind. You're in a great place to start.</h2><p>Open with a real frustration, show what worked and what flopped, end with one small next step. No fear, no hype, no shaming.</p></div>
+    <div class="rule-card core"><h2>You're not behind. Start small: pick one task to make easier today.</h2><p>Open with a real frustration, show what worked and what flopped, end with one small next step. No fear, no hype, no shaming.</p></div>
     <div class="rule-card"><h2>Keep it anonymous</h2><ul><li>"My human's team," never the company, industry or market</li><li>No job title, team size, dates or exact figures</li><li>Blur distinctive incidents; keep the lesson</li><li>Mock data only, never real screens</li></ul></div>
     <div class="rule-card"><h2>Before anything posts</h2><ul class="todo"><li>✓ Likeness approved, incl. talking video and Higgsfield</li><li>Pick and record Remi's Higgsfield voice</li><li>Decide: GitHub repository private or public</li><li>AI label on, every post</li></ul></div>
   </div>
 
   <section class="codex" id="send-to-codex">
     <div><span class="eyebrow">Claude + Codex</span><h2>Send to Codex</h2>
-    <p>Current task: review and strengthen the Human Voice Check. Paste this into Codex with the repository selected. (The alternates task is done: pull request #2.)</p></div>
+    <p>Current task: cross-review the final copy (check 3 of the Human Voice Check). Paste this into Codex with the repository selected.</p></div>
     {copy_block("Prompt for Codex", CODEX_PROMPT, open_=True)}
   </section>
 

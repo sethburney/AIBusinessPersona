@@ -20,7 +20,9 @@ Two AI collaborators write competing versions of each post. The owner picks.
 
 | Brief | For | Status |
 |---|---|---|
-| [`codex-brief-launch-alternates.md`](codex-brief-launch-alternates.md) | Codex: alternates for weeks 1–3 (paste [`codex-prompt.md`](codex-prompt.md) into Codex) | Delivered (PR #2), awaiting owner picks |
-| [`codex-brief-voice-check-review.md`](codex-brief-voice-check-review.md) | Codex: review and strengthen the Human Voice Check (paste [`codex-prompt-voice-check.md`](codex-prompt-voice-check.md) into Codex) | Delivered (PR #4); fixes requested via [`codex-prompt-pr4-fixes.md`](codex-prompt-pr4-fixes.md) |
+| [`codex-brief-launch-alternates.md`](codex-brief-launch-alternates.md) | Codex: alternates for weeks 1–3 (paste [`codex-prompt.md`](codex-prompt.md) into Codex) | Merged (PR #2); picks approved 2026-11-18 |
+| [`codex-brief-voice-check-review.md`](codex-brief-voice-check-review.md) | Codex: review and strengthen the Human Voice Check | Merged (PR #4) |
+
+| [`codex-prompt-final-copy-review.md`](codex-prompt-final-copy-review.md) | Codex: cross-review the final weeks 1–3 copy (check 3) | Open |
 
 **Side-by-side view:** the Remi A/B Compare page (private artifact) shows Claude's and Codex's versions of every slot, voice-check results, and Claude's recommendation: https://claude.ai/artifact/TPL9cW1mBbxZGgnUE9HTa5

@@ -4,6 +4,7 @@ Record each key decision, the options considered, and why we chose what we did. 
 
 | Date | Decision | Options considered | Reasoning | Open risks |
 |---|---|---|---|---|
+| 2026-11-18 | Merged Codex's alternates (#2) and voice-check review (#4); owner approved Claude's slot picks; final copy for weeks 1–3 written and passing the voice check; core line is now "You're not behind. Start small: pick one task to make easier today." | Keep A only; keep B only | Best of both: Codex's accuracy and clarity, Claude's warmth and playful lines | Codex cross-review of final copy and both read-alouds still pending |
 | 2026-11-16 | Added the Human Voice Check: grade 8 or easier, American English, banned AI tells, automatic checker, Claude/Codex cross-review, and read-aloud by owner and wife; required before any pick is final | Rely on AI review alone | AI reviewing AI shares the same habits; a human read-aloud is the real test | Reading-level formulas are rough on short text; the checker can't catch every unnatural line |
 | 2026-11-16 | Claude writes Option A, Codex writes Option B for each post; owner picks weekly in `content/launch/picks.md` | Claude only | Owner wants the best of both AIs | Codex must follow the same guardrails; its output needs the same review before posting |
 | 2026-11-16 | Core line changed to "You're not behind. You're in a great place to start," always paired with a concrete action | "You're right here" | Owner found "right here" unclear; the new line is encouraging and points to action | None |

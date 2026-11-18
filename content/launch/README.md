@@ -2,11 +2,13 @@
 
 Three weeks of Remi content, pre-built and ready for production. Each week has three posts (Mon, Wed, Fri) plus a short Sunday **bridge video** into the next week.
 
-| Week | Theme | Mon (reel) | Wed (carousel) | Fri | Sun bridge |
+| Week | Theme | Mon (reel) | Wed (carousel) | Fri (reel) | Sun bridge |
 |---|---|---|---|---|---|
-| [1](week-1.md) | Launch: meet Remi | Hi, I'm Remi (and you're not behind) | Ask → Build → Delegate | Build it. Prove it. Hand it off. (reel) | Into messy data week |
-| [2](week-2.md) | Clean data | What if your report found the errors for you? | 5 rules for a clean CRM | Remi's Oops: the fix that disappeared (reel) | Into outreach week |
-| [3](week-3.md) | Outreach | Your reps don't need a database. They need a list. | Outreach that doesn't feel like spam | An AI assistant that never messages your reps (reel) | Three weeks in |
+| [1](week-1.md) | Launch: meet Remi | Same task, every week? Start here. | Ask → Build → Delegate | Can your process run without you explaining it? | Into messy data week |
+| [2](week-2.md) | Clean data | The error with a round-trip ticket | 5 rules for a CRM your team will keep clean | Remi's Oops: great fix, wrong place | Into outreach week |
+| [3](week-3.md) | Outreach | The scroll before the call | Before you send another "just checking in" | An AI assistant with the send button off | Three weeks in |
+
+**Status (2026-11-18):** Final copy, picked from Claude's and Codex's versions (`picks.md`), passing the Human Voice Check. Waiting on Codex's cross-review and the read-aloud sign-offs (`read-aloud.md`).
 
 **Totals:** 8 talking-head videos (5 posts + 3 bridges) and 3 carousels.
 
@@ -42,14 +44,14 @@ The ideas, what was built, and what was learned can be shared. Anything that cou
 
 Every week file was written to this rule. Specific playbook figures were softened (for example, a stated 50–75% became "roughly half or more"), and identifying details such as team size and touch counts were removed.
 
-## Standing rule 2: "You're not behind. You're in a great place to start."
+## Standing rule 2: "You're not behind. Start small: pick one task to make easier today."
 
 The emotional core of the channel. Every piece should leave the viewer more confident than before.
 
 - **Open with recognition, not fear.** Name the frustration ("every month-end, somebody finds a deal entered wrong") rather than warning people they're falling behind.
 - **Normalize mistakes.** Flops and Oops stories show that everyone gets it wrong; the point is the rule that came out of it.
 - **Always end with one small next step** the viewer can take this week.
-- **Bridge videos** between weeks (and later, between campaigns) recap the wins and repeat the message: "You're not behind. You're in a great place to start."
+- **Bridge videos** between weeks (and later, between campaigns) recap the wins and repeat the message: "You're not behind. Start small: pick one task to make easier today."
 - **Banned:** fear-of-missing-out framing ("AI will replace you if..."), shaming, hype, and "everyone else is already doing this."
 
 ## Brand style for carousels and covers
