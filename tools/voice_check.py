@@ -129,7 +129,7 @@ def parse(path):
             elif mode == "caption" and in_code:
                 if line.strip() and not line.strip().startswith("#"):
                     section, text = "caption", clean(line)
-                    if re.match(r"^\\d+[.️⃣]", text) and not text.endswith((".", "!", "?")):
+                    if re.match(r"^\d+[.️⃣]", text) and not text.endswith((".", "!", "?")):
                         text += "."
             elif not in_code and line.startswith("|"):
                 cells = [c.strip() for c in line.strip("|").split("|")]
@@ -154,9 +154,6 @@ def check_text(text, spoken=False):
     flags = []
     for pat, label, fix in BANNED:
         for m in re.finditer(pat, text, re.I):
-            # Do not punish the channel's approved reassurance for its grammar.
-            if label.startswith('"It') and re.match(r"not behind\b", m.group(0), re.I):
-                continue
             flags.append(("FAIL", label, m.group(0), fix))
     # Catch the actual paired sentence, including an opening subject.
     for m in re.finditer(r"\b(?:mistakes|errors) aren't the problem\.\s*"
@@ -242,7 +239,88 @@ def main(paths):
     return 1 if any_fail else 0
 
 
+
+def self_test():
+    """Run dependency-free regression checks without changing repository files."""
+    import contextlib
+    import io
+    import tempfile
+    from pathlib import Path
+
+    def fails(text):
+        return any(flag[0] == "FAIL" for flag in check_text(text, spoken=True))
+
+    for text in ("That's not behind. That's building.",
+                 "That’s not behind. That’s building.",
+                 "The magic isn’t the report. It’s the fix.",
+                 "Mistakes aren't the problem. Repeating them is.",
+                 "No shame required.", "We analyse the colour scheme."):
+        assert fails(text), text
+    for text in ("You're not behind. You're in a great place to start.",
+                 "You’re not behind. You’re in a great place to start.",
+                 "Stay human. I'll handle the robot stuff. My human checks it.",
+                 "We analyze the color scheme. The analyses are done.",
+                 "We sorted the list. It was a brilliant idea."):
+        assert not fails(text), text
+    assert not fails(" ".join(["word"] * 20) + ".")
+    assert fails(" ".join(["word"] * 21) + ".")
+    assert check_text("Do not send it yet.", spoken=True)
+    assert not check_text("Do not send it yet.", spoken=False)
+    assert len(sentences("A sentence wraps\nonto a new line. Next one.")) == 2
+    assert len(sentences('She said "Done." Next one.')) == 2
+    assert TARGET_MAX == 8.0
+
+    with tempfile.TemporaryDirectory() as folder:
+        path = Path(folder) / "sample.md"
+        for marker in ("1️⃣", "1.", "10."):
+            path.write_text(
+                "### W10-MON\n**Script (spoken)**\n> Try a task.\n"
+                "**Caption**\n```text\n"
+                f"{marker} Build it\n2. Prove it\n"
+                "Try one task today.\n```\n", encoding="utf-8")
+            piece = parse(path)[0]
+            caption = [text for section, _, text in piece["entries"]
+                       if section == "caption"]
+            assert caption == [f"{marker} Build it.", "2. Prove it.",
+                               "Try one task today."], caption
+            # A period in a numbered marker also counts as punctuation.
+            # Each item and the final sentence must remain separate.
+            parts = sentences(" ".join(caption))
+            assert parts[-1] == "Try one task today.", parts
+            assert any("Build it." in part for part in parts), parts
+            assert any("Prove it." in part for part in parts), parts
+            with contextlib.redirect_stdout(io.StringIO()):
+                assert main([str(path)]) == 0
+        path.write_text(
+            "### W10-WED\n| # | Slide | Copy |\n"
+            "| 1 | Supercharge work | Use a list. |\n"
+            "**Caption**\n```text\nShort caption.\n```\n",
+            encoding="utf-8")
+        assert "Supercharge work" in parse(path)[0]["entries"][0][2]
+        with contextlib.redirect_stdout(io.StringIO()):
+            assert main([str(path)]) == 1
+        for text in ("No supported headings.",
+                     "### W1-MON\n**Script (spoken)**\n> Hello there.\n"):
+            path.write_text(text, encoding="utf-8")
+            with contextlib.redirect_stdout(io.StringIO()):
+                assert main([str(path)]) == 1
+        with contextlib.redirect_stdout(io.StringIO()):
+            assert main([str(path) + "missing"]) == 1
+        hard = " ".join(
+            ["Organizational implementation requires comprehensive evaluation."] * 8)
+        path.write_text(
+            "### W1-MON\n**Script (spoken)**\n> Try a task.\n"
+            "**Caption**\n```text\n" + hard + "\n```\n",
+            encoding="utf-8")
+        with contextlib.redirect_stdout(io.StringIO()):
+            assert main([str(path)]) == 1
+    print("Voice checker regression checks passed.")
+    return 0
+
+
 if __name__ == "__main__":
+    if sys.argv[1:] == ["--self-test"]:
+        sys.exit(self_test())
     if len(sys.argv) < 2:
         print(__doc__)
         sys.exit(2)
