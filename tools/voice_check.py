@@ -10,7 +10,7 @@ See STYLE-GUIDE.md for the rules. Exit code 1 if any piece has a FAIL.
 import re
 import sys
 
-TARGET_MAX = 8.9  # no harder than 8th grade; easier is fine for spoken social copy
+TARGET_MAX = 8.0  # no harder than 8th grade; easier is fine for spoken social copy
 
 BANNED = [  # (regex, label, fix)
     (r"\b(isn't|is not|wasn't|aren't|not)\b[^.!?\n]{0,60}[.!?,;]\s*(it's|it is|it was|that's)\b", "\"It's not X, it's Y\" pattern", "say the point directly"),
@@ -26,21 +26,26 @@ BANNED = [  # (regex, label, fix)
     (r"fast[- ]paced world|in today'?s world", "stock opener", "open with the frustration"),
     (r"\bever wondered\b|\bimagine a world\b", "stock opener", "open with the frustration"),
     (r"at the end of the day|in conclusion|it'?s worth noting|worth noting", "stock closer", "end with the next step"),
+    (r"\bno shame required\b", "canned reassurance or aside", "say the useful next step directly"),
     (r"—", "em dash", "comma, period, or two sentences"),
 ]
 
 WARN = [
-    (r"\ban ai persona\b", "clinical disclosure", "\"your AI work bestie\" or skip it"),
+    (r"\ban ai persona\b", "formal disclosure", "\"I'm AI\"; keep the disclosure clear"),
     (r"\b(leverage|utili[sz]e|empower\w*|optimi[sz]e)\b", "business word", "use / help / improve"),
     (r"\b(potentially|arguably|somewhat|perhaps)\b", "hedge word", "one honest qualifier at most"),
 ]
 
 BRITISH = [
+    (r"\b(analyse|analysed|analysing|optimise|optimised|optimising|optimisation)\b", "British spelling"),
     (r"\b(colour|favour|honour|behaviour|neighbour|labour)\w*", "British spelling"),
     (r"\b(organis|realis|recognis|prioritis|summaris|categoris|apologis|customis|standardis)\w*", "British spelling (-ise)"),
     (r"\b(centre|metre|theatre|programme|catalogue|whilst|amongst|learnt|spelt|fortnight)\b", "British spelling/word"),
-    (r"\b(sorted|reckon|brilliant|cheers|mate|keen to|queue up|rubbish)\b", "British idiom"),
+
 ]
+
+# Context matters: these also have ordinary American meanings.
+IDIOM_WARN = r"\b(sorted|reckon|brilliant|cheers|mate|keen to|queue up|rubbish)\b"
 
 UNCONTRACTED = r"\b(do not|does not|did not|cannot|can not|will not|would not|should not|is not|are not|was not|were not|it is|you are|we are|they are|I am|that is|there is|let us|I will|you will|we will|have not|has not)\b"
 
@@ -56,13 +61,19 @@ def syllables(word):
     return max(1, len(re.findall(r"[aeiouy]{1,2}", w)))
 
 
+def normalize(text):
+    return text.replace("\u2019", "'").replace("\u2018", "'")
+
+
 def sentences(text):
-    parts = re.split(r"(?<=[.!?…])\s+|\n+", text)
-    return [p.strip() for p in parts if re.search(r"[A-Za-z]", p)]
+    # A Markdown wrap is not a new sentence. Keep punctuation inside quotes.
+    text = re.sub(r"\s+", " ", text).strip()
+    return [p.strip() for p in re.split(r'(?<=[.!?])\s+|(?<=[.!?]["\u201d])\s+', text)
+            if re.search(r"[A-Za-z]", p)]
 
 
 def words_of(s):
-    return re.findall(r"[A-Za-z][A-Za-z'’-]*", s)
+    return re.findall(r"[A-Za-z][A-Za-z'\u2019-]*", s)
 
 
 def fk_grade(text):
@@ -76,107 +87,158 @@ def fk_grade(text):
 
 def clean(s):
     s = re.sub(r"\*\(Image:.*?\)\*", "", s)
-    s = re.sub(r"\*\*([^*]+?)([.!?])?\*\*", lambda m: m.group(1) + (m.group(2) or "."), s)  # slide headline ends a sentence
-    s = s.replace("**", "").replace("`", "")
-    return s.strip()
+    s = re.sub(r"!?\[[^]]*\]\([^)]*\)", "", s)
+    s = re.sub(r"\*\*([^*]+?)\*\*", lambda m: m.group(1) +
+               ("" if m.group(1).endswith((".", "!", "?")) else "."), s)
+    return s.replace("**", "").replace("`", "").strip()
 
 
 def parse(path):
     pieces, cur, mode, in_code = [], None, None, False
-    for raw in open(path, encoding="utf-8"):
-        line = raw.rstrip("\n")
-        m = re.match(r"^### (W\d-[A-Z]+)\b(.*)", line)
-        if m:
-            cur = {"id": m.group(1), "title": m.group(2).strip(" ·:"), "copy": [], "caption": [], "onscreen": []}
-            pieces.append(cur)
-            mode, in_code = None, False
-            continue
-        if cur is None:
-            continue
-        if line.startswith("```"):
-            in_code = not in_code
-            if not in_code and mode == "caption":
-                mode = None
-            continue
-        if not in_code and line.startswith("**"):
-            low = line.lower()
-            mode = ("script" if "script (spoken)" in low else
-                    "onscreen" if "on-screen text" in low else
-                    "caption" if low.startswith("**caption") else None)
-            continue
-        if mode == "script" and line.startswith(">"):
-            t = clean(line.lstrip("> "))
-            if t:
-                cur["copy"].append(t)
-        elif mode == "onscreen" and line.startswith("|") and not re.match(r"^\|\s*(Time|---)", line):
-            cells = [c.strip() for c in line.strip("|").split("|")]
-            if len(cells) >= 2:
-                cur["onscreen"].append(clean(cells[-1]))
-        elif mode == "caption" and in_code:
-            if line.strip() and not line.strip().startswith("#"):
-                cur["caption"].append(line.strip())
-        elif line.startswith("|") and not in_code:
-            cells = [c.strip() for c in line.strip("|").split("|")]
-            if len(cells) >= 3 and cells[0].isdigit():
-                cur["copy"].append(clean(cells[-1]))
+    with open(path, encoding="utf-8") as source:
+        for lineno, raw in enumerate(source, 1):
+            line = raw.rstrip("\n")
+            m = re.match(r"^### (W\d+-[A-Z]+)\b(.*)", line)
+            if m:
+                cur = {"id": m.group(1), "title": m.group(2).strip(" ·:"),
+                       "line": lineno, "entries": []}
+                pieces.append(cur)
+                mode, in_code = None, False
+                continue
+            if cur is None:
+                continue
+            if line.startswith("```"):
+                in_code = not in_code
+                if not in_code and mode == "caption":
+                    mode = None
+                continue
+            if not in_code and line.startswith("**"):
+                low = line.lower()
+                mode = ("script" if "script (spoken)" in low else
+                        "onscreen" if "on-screen text" in low else
+                        "caption" if low.startswith("**caption") else None)
+                continue
+            # Blank lines end caption paragraphs, not ordinary Markdown wraps.
+            if not line.strip() and mode == "caption" and cur["entries"]:
+                sec, loc, previous = cur["entries"][-1]
+                if sec == "caption" and not previous.endswith((".", "!", "?", ":")):
+                    cur["entries"][-1] = (sec, loc, previous + ".")
+            section, text = None, ""
+            if mode == "script" and line.startswith(">"):
+                section, text = "script", clean(line.lstrip("> "))
+            elif mode == "caption" and in_code:
+                if line.strip() and not line.strip().startswith("#"):
+                    section, text = "caption", clean(line)
+                    if re.match(r"^\\d+[.️⃣]", text) and not text.endswith((".", "!", "?")):
+                        text += "."
+            elif not in_code and line.startswith("|"):
+                cells = [c.strip() for c in line.strip("|").split("|")]
+                if mode == "onscreen" and len(cells) >= 2:
+                    if not re.match(r"^(Time|---)", cells[0]):
+                        section, text = "onscreen", clean(cells[-1])
+                elif len(cells) >= 3 and cells[0].isdigit():
+                    section = "slide " + cells[0]
+                    # Separate heading column is public too, except layout labels.
+                    heading = cells[-2]
+                    text = clean(cells[-1])
+                    if heading.lower() not in {"cover", "closer", "prompt", ""} and not re.match(
+                            r"^(stage|rule|step) \d+$", heading, re.I):
+                        text = clean(heading) + ". " + text
+            if section and text:
+                cur["entries"].append((section, lineno, text))
     return pieces
 
 
-def check_text(text, spoken):
+def check_text(text, spoken=False):
+    text = normalize(text)
     flags = []
     for pat, label, fix in BANNED:
         for m in re.finditer(pat, text, re.I):
+            # Do not punish the channel's approved reassurance for its grammar.
+            if label.startswith('"It') and re.match(r"not behind\b", m.group(0), re.I):
+                continue
             flags.append(("FAIL", label, m.group(0), fix))
+    # Catch the actual paired sentence, including an opening subject.
+    for m in re.finditer(r"\b(?:mistakes|errors) aren't the problem\.\s*"
+                         r"(?:repeating them is|it's)\b", text, re.I):
+        flags.append(("FAIL", "stock contrast", m.group(0), "say what to do next"))
     for pat, label in BRITISH:
         for m in re.finditer(pat, text, re.I):
-            flags.append(("FAIL", label, m.group(0), "American English"))
+            flags.append(("FAIL", label, m.group(0), "American spelling"))
+    for m in re.finditer(IDIOM_WARN, text, re.I):
+        flags.append(("WARN", "possible British idiom", m.group(0),
+                      "keep ordinary American meanings; otherwise rephrase"))
     for pat, label, fix in WARN:
         for m in re.finditer(pat, text, re.I):
             flags.append(("WARN", label, m.group(0), fix))
     if spoken:
         for m in re.finditer(UNCONTRACTED, text, re.I):
-            flags.append(("WARN", "no contraction (stiff out loud)", m.group(0), "use the contraction"))
-    for s in sentences(text):
-        n = len(words_of(s))
-        if n > 25:
-            flags.append(("FAIL", f"sentence too long ({n} words)", s[:70] + "...", "split it"))
-        elif n > 20:
-            flags.append(("WARN", f"long sentence ({n} words)", s[:70] + "...", "consider splitting"))
+            flags.append(("WARN", "possible stiff phrasing", m.group(0),
+                          "try a contraction; keep deliberate emphasis"))
+    for sentence in sentences(text):
+        n = len(words_of(sentence))
+        if n > 20:
+            flags.append(("FAIL", f"sentence too long ({n} words)", sentence,
+                          "split it without changing the meaning"))
     return flags
 
 
 def main(paths):
     any_fail = False
     for path in paths:
-        pieces = parse(path)
+        try:
+            pieces = parse(path)
+        except (OSError, UnicodeError) as exc:
+            print(f"{path}: [FAIL] cannot read file: {exc}")
+            any_fail = True
+            continue
         print(f"\n=== {path} ({len(pieces)} pieces) ===")
-        print(f"{'Piece':<11}{'Copy grade':>11}{'Caption grade':>15}{'Longest':>9}  Result")
-        details = []
+        if not pieces:
+            print("  [FAIL] no supported pieces found; no copy was checked")
+            any_fail = True
+            continue
         for p in pieces:
-            copy = "\n".join(p["copy"])
-            cap = "\n".join(p["caption"])
-            g_copy, g_cap = fk_grade(copy), fk_grade(cap)
-            longest = max((len(words_of(s)) for s in sentences(copy + "\n" + cap)), default=0)
-            flags = check_text(copy, spoken=True) + check_text(cap, spoken=False) + check_text("\n".join(p["onscreen"]), spoken=False)
-            if g_copy is not None and g_copy > TARGET_MAX:
-                flags.append(("FAIL", f"copy reads above grade 8 ({g_copy:.1f})", "", "shorter sentences, simpler words"))
-            if g_cap is not None and g_cap > TARGET_MAX:
-                flags.append(("WARN", f"caption reads above grade 8 ({g_cap:.1f})", "", "shorter sentences, simpler words"))
-            if g_copy is not None and g_copy < 1.5 and len(words_of(copy)) > 30:
-                flags.append(("WARN", f"copy may read choppy (grade {g_copy:.1f})", "", "vary sentence length"))
-            fails = sum(1 for f in flags if f[0] == "FAIL")
-            warns = len(flags) - fails
-            any_fail |= fails > 0
-            res = "PASS" if not flags else (f"FAIL ({fails}F/{warns}W)" if fails else f"WARN ({warns})")
-            fmt = lambda g: "n/a" if g is None else f"{g:.1f}"
-            print(f"{p['id']:<11}{fmt(g_copy):>11}{fmt(g_cap):>15}{longest:>9}  {res}")
-            if flags:
-                details.append((p["id"], flags))
-        for pid, flags in details:
-            print(f"\n  {pid}:")
-            for sev, label, hit, fix in flags:
-                hit_s = f' "{hit}"' if hit else ""
-                print(f"    [{sev}] {label}:{hit_s} -> {fix}")
+            groups = {}
+            for section, line, text in p["entries"]:
+                groups.setdefault(section, []).append((line, text))
+            if not any(k == "script" or k.startswith("slide ") for k in groups):
+                print(f"  {p['id']}:{p['line']} [FAIL] missing script or slides")
+                any_fail = True
+            if "caption" not in groups:
+                print(f"  {p['id']}:{p['line']} [FAIL] missing caption")
+                any_fail = True
+            for section, entries in groups.items():
+                if section == "onscreen":
+                    entries = [(line, t if t.endswith((".", "!", "?")) else t + ".")
+                               for line, t in entries]
+                text = " ".join(t for _, t in entries)
+                flags = []
+                # Scan complete sentences across Markdown wraps, but keep locations.
+                for sev, label, hit, fix in check_text(text, spoken=section == "script"):
+                    pos = normalize(text).find(hit) if hit else 0
+                    offset, line = 0, entries[0][0]
+                    for row_line, row_text in entries:
+                        if offset > pos:
+                            break
+                        line = row_line
+                        offset += len(row_text) + 1
+                    flags.append((sev, label, hit, fix, line))
+                grade = fk_grade(text)
+                # Short slides/overlays have unstable estimates, but still get checked.
+                short = len(words_of(text)) < 30
+                if grade is not None and grade > TARGET_MAX:
+                    flags.append(("WARN" if short else "FAIL",
+                                  f"reads above grade 8 ({grade:.1f})", "",
+                                  "simplify; short-copy scores need a human check",
+                                  entries[0][0]))
+                longest = max((len(words_of(s)) for s in sentences(text)), default=0)
+                result = "FAIL" if any(f[0] == "FAIL" for f in flags) else (
+                    "WARN" if flags else "PASS")
+                any_fail |= result == "FAIL"
+                g = "n/a" if grade is None else f"{grade:.1f}"
+                print(f"  {p['id']} {section}: grade {g}, longest {longest}, {result}")
+                for sev, label, hit, fix, line in flags:
+                    print(f"    {path}:{line} [{sev}] {label}: {hit!r} -> {fix}")
     return 1 if any_fail else 0
 
 
