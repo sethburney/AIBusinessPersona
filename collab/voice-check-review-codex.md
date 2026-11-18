@@ -35,7 +35,6 @@ Baseline exit status: 1. All six files parsed into four pieces each. Across 24 p
 
 ### False positives and overbroad rules
 
-- A W3-BRIDGE: “That's not behind. That's building.” fails twice, in script and caption. This is the approved reassurance expressed as a contrast. Keep it allowed. That does not excuse claiming viewers have built something when they have only watched.
 - A W1-BRIDGE and B W2-BRIDGE/W3-BRIDGE: a low grade triggers “may read choppy.” A low score cannot establish choppiness. These short bridges may need rhythm edits, but the formula is not the evidence.
 - “An AI persona” is accurate disclosure. Repetition sounds formal, so a warning is useful. The old suggestion to “skip it” is unsafe as general voice advice: keep her AI identity clear. Use “I'm AI” where it fits.
 - “Sorted” in B W2-FRI really does sound British in “Looked sorted!” Keep that editorial finding. But a rule that fails “sorted the list” or “a brilliant idea” rejects ordinary American English. Move ambiguous idioms to warnings.
@@ -43,6 +42,8 @@ Baseline exit status: 1. All six files parsed into four pieces each. Across 24 p
 - The existing “landscape” and “unlock” rules can flag literal uses such as a landscape photo or unlocking an account. They remain house-style flags in this narrow patch; a reviewer must distinguish literal meaning from hype. Do not expand this into a ban on every metaphor.
 
 ### False negatives and coverage gaps
+
+- Correction after Claude's cross-review: “That's not behind. That's building.” is a contrast tell and should fail. My proposed exemption was wrong and has been removed. Rewrite it as the direct next step. The core line “You're not behind. You're in a great place to start.” does not match the contrast pattern and needs no exemption.
 
 - A W2-FRI's “Mistakes aren't the problem. Repeating them is.” escapes the contrast regex. Added that paired pattern.
 - B W1-FRI's forced aside and B W2-FRI's “No shame required” pass the voice tests despite sounding canned. The latter is now caught. Forced asides remain a human edit rather than an exact-match ban on one whole sentence.
@@ -170,10 +171,22 @@ These extend the review to slides, overlays, and captions; they are not extra sc
 
 The style guide keeps the five checks in the same order and preserves all signature lines. It adds direct actor/action wording, simpler job terms, natural breaths, fewer forced metaphors and canned asides, one next step, and context for American idioms and contractions. It makes clear which judgments the checker cannot make.
 
-The Python file stays dependency-free. Changes: strict 8.0 threshold; long captions fail above it; short sections warn above it; remove low-score choppiness warnings; normalize apostrophes; catch the missed mistake/repetition contrast and “No shame required”; preserve the approved not-behind reassurance; add analyze/optimize spelling variants; downgrade ambiguous British idioms to warnings; keep disclosure explicit in warning advice; include separate slide headings; use spoken-only contraction warnings; score slides and overlays separately; preserve wrapped sentences; handle caption paragraphs/lists; print source locations; fail visibly on unreadable/unsupported/missing-copy inputs.
+The Python file stays dependency-free. Changes: strict 8.0 threshold; long captions fail above it; short sections warn above it; remove low-score choppiness warnings; normalize apostrophes; catch the missed mistake/repetition contrast and “No shame required”; remove the mistaken not-behind exemption; add analyze/optimize spelling variants; downgrade ambiguous British idioms to warnings; keep disclosure explicit in warning advice; include separate slide headings; use spoken-only contraction warnings; score slides and overlays separately; preserve wrapped sentences; handle caption paragraphs/lists; print source locations; fail visibly on unreadable/unsupported/missing-copy inputs.
 
-The revised run on the unchanged six files still exits 1, as it should. It newly catches A W2-FRI's contrast, A W3-MON's sentences over 20 words, B W1-WED's 25-word instruction, and B W2-FRI's canned reassurance. A W3-BRIDGE's approved reassurance no longer fails. Short-copy grade warnings now surface A W2-WED slide 6 (8.7), A W3-WED cover (9.1), and B W3-WED slide 5 (9.3), which were hidden by pooled scores. These need human attention; short-sample estimates are not exact grade assessments.
+The revised run on the unchanged six files still exits 1, as it should. It newly catches A W2-FRI's contrast, A W3-MON's sentences over 20 words, B W1-WED's 25-word instruction, and B W2-FRI's canned reassurance. A W3-BRIDGE's contrast now correctly fails again; the core reassurance still passes. Short-copy grade warnings now surface A W2-WED slide 6 (8.7), A W3-WED cover (9.1), and B W3-WED slide 5 (9.3), which were hidden by pooled scores. These need human attention; short-sample estimates are not exact grade assessments.
 
 Focused Python regression checks passed for: straight/curly signature lines; curly contrast detection; actual British spellings versus American spelling and the noun “analyses”; American senses of sorted/brilliant; deliberate contraction warnings only in spoken copy; 20/21-word boundary; wrapped and quoted sentences; multi-digit week IDs; slide-heading inclusion; no duplicate production-prompt scanning; all six files yielding 24 pieces; unreadable files; unsupported headings; and missing captions. All checks ran with the standard library. Scratch checks are not additional repository files.
 
 Limitations: syllable estimates are approximate, especially for abbreviations. The parser supports these launch Markdown formats, not arbitrary Markdown. Phrase regexes cannot judge facts, privacy, tone, or every stock contrast. Human checks must still catch the awkward lines listed above. No owner or wife sign-off is implied.
+
+## Follow-up after Claude's cross-review
+
+- Removed the not-behind exemption. The contrast “That's not behind. That's building.” fails with straight or curly apostrophes. The core reassurance still passes.
+- Fixed the extra backslash in the numbered-caption regex. Keycap and dotted-number items now end separately before the next normal sentence.
+- Added persistent standard-library regression checks in the checker itself. Run `python3 tools/voice_check.py --self-test`. They cover both fixes and the earlier spelling, sentence, parsing, and error cases. The earlier exemption expectation is intentionally replaced with the corrected contrast expectation.
+- Section 1 of the guide now keeps CRM for sales and marketing leaders. Explain it once only when needed. Earlier account-record rewrites in this review are suggestions, not a rule to remove CRM.
+- Section 3 now requires at least one clear playful line in every script. Plain doesn't mean flat. The line-by-line cuts above are choices, not instructions to strip every joke or picture-in-words. Keep a clear joke, image, or signature line in the final script.
+
+The five checks, grade-8 ceiling, dependency-free checker, and allowed file scope remain unchanged.
+
+Follow-up validation: `--self-test` passed. Reran the updated checker on all six unchanged launch files; exit 1 remains expected. A W3-BRIDGE now fails for the contrast, and A W1-FRI's numbered caption list is parsed as separate items. No launch copy was edited.
