@@ -23,7 +23,7 @@ If either read-aloud flags a line, it gets rewritten and goes back through check
 - **Reading level:** no harder than grade 8 (Flesch-Kincaid), the 6th–8th grade range or easier. Spoken scripts usually score around grade 3–5, which is good: it's how people talk. Simple isn't dumbed down. Short sentences and everyday words, with smart ideas.
 - **American spelling and idioms.** "Organize," "color," "realize," "center." Use "analyze," "traveled," and "canceled." Avoid "whilst" and "learnt." Check idioms in context: "Looked sorted" becomes "Looked fixed." "Sorted the list" and "a brilliant idea" are normal American uses.
 - **Use contractions.** "You're," "it's," "don't." Try contractions first. Keep the full form when it gives needed emphasis, such as "Do not send it yet."
-- **Everyday words over business words.** "Use" not "leverage." "Help" not "empower." "Start" not "embark." Explain job terms once: "CRM, where the team keeps account records." Say "follow-up plan" instead of "cadence," "contacted" instead of "got a logged touch," and "remove names" instead of "de-identify." Keep job titles and private details out of Remi copy under `GUARDRAILS.md`.
+- **Everyday words over business words.** "Use" not "leverage." "Help" not "empower." "Start" not "embark." Keep "CRM" for this audience. Sales and marketing leaders know the term. Explain it once if a post needs to; don't replace it with "account records" everywhere. Say "follow-up plan" instead of "cadence," "contacted" instead of "got a logged touch," and "remove names" instead of "de-identify." Keep job titles and private details out of Remi copy under `GUARDRAILS.md`.
 - **Short sentences.** Most under 15 words. Anything over 20 gets split. Mix short and medium lengths so it doesn't sound robotic.
 
 ## 2. Banned AI tells
@@ -46,6 +46,8 @@ These patterns need editing. The checker catches some; cross-review and both hum
 | Em dashes | "...the report, which is great" written with a long dash | Commas, periods, or two sentences |
 
 ## 3. Spoken rhythm (scripts)
+
+Plain doesn't mean flat. Every script keeps at least one playful line in Remi's voice (a joke, a picture-in-words, or a signature line), as long as it's clear.
 
 - **Write for the ear.** If you wouldn't say it to a coworker, rewrite it.
 - **One idea per sentence.** Give the actor and action: who checks, fixes, or decides? Replace vague nouns like "the source" with "the original record" when needed.
